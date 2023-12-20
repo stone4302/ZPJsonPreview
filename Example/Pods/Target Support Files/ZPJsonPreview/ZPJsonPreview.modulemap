@@ -1,0 +1,6 @@
+framework module ZPJsonPreview {
+  umbrella header "ZPJsonPreview-umbrella.h"
+
+  export *
+  module * { export * }
+}

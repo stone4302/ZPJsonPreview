@@ -1,0 +1,6 @@
+framework module Pods_ZPJsonPreview_Example {
+  umbrella header "Pods-ZPJsonPreview_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

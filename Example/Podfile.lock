@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZPJsonPreview (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZPJsonPreview (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZPJsonPreview:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZPJsonPreview: be3de42b7ef53de05a0d19020599714176c4041b
+
+PODFILE CHECKSUM: ee70362c2e8492df41683560bfce1839e7db1637
+
+COCOAPODS: 1.11.3

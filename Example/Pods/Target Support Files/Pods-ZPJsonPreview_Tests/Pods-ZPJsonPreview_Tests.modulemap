@@ -1,0 +1,6 @@
+framework module Pods_ZPJsonPreview_Tests {
+  umbrella header "Pods-ZPJsonPreview_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
