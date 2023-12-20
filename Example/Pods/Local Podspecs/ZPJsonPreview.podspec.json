@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of ZPJsonPreview.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/pengbingxiang/ZPJsonPreview",
+  "homepage": "git@igit.58corp.com:HRG-Client/iOS/ClientLib/ZPJsonPreview.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,14 @@
     "pengbingxiang": "pengbingxiang@58.com"
   },
   "source": {
-    "git": "https://github.com/pengbingxiang/ZPJsonPreview.git",
+    "git": "git@igit.58corp.com:HRG-Client/iOS/ClientLib/ZPJsonPreview.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "ZPJsonPreview/Classes/**/*"
+  "source_files": "ZPJsonPreview/Classes/**/*",
+  "resources": [
+    "ZPJsonPreview/Assets/Sources/*"
+  ]
 }
