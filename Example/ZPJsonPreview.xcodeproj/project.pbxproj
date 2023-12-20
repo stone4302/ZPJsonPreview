@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C9C5A8EB7BFAF99CFFAED23 /* Pods_ZPJsonPreview_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2103FE06FEFDB48609EE9456 /* Pods_ZPJsonPreview_Example.framework */; };
+		37DDD68B2B32EDF8009F5CDB /* zp_json_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 37DDD68A2B32EDF8009F5CDB /* zp_json_test.json */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,7 +40,8 @@
 /* Begin PBXFileReference section */
 		0290ACCFB2E0C5EA13775B24 /* Pods-ZPJsonPreview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPJsonPreview_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZPJsonPreview_Tests/Pods-ZPJsonPreview_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2103FE06FEFDB48609EE9456 /* Pods_ZPJsonPreview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPJsonPreview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DC8E9079FAB768F3539C6F7 /* ZPJsonPreview.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZPJsonPreview.podspec; path = ../ZPJsonPreview.podspec; sourceTree = "<group>"; };
+		2DC8E9079FAB768F3539C6F7 /* ZPJsonPreview.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZPJsonPreview.podspec; path = ../ZPJsonPreview.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		37DDD68A2B32EDF8009F5CDB /* zp_json_test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zp_json_test.json; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZPJsonPreview_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPJsonPreview_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,10 +62,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77B184E584D246D61AA94C6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		77B184E584D246D61AA94C6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		86BE881B62648F740530B838 /* Pods-ZPJsonPreview_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPJsonPreview_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EDD2F650540A5E6798B3E70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9EDD2F650540A5E6798B3E70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A0E2A76F623B0CC27A3A4AC7 /* Pods-ZPJsonPreview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPJsonPreview_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZPJsonPreview_Tests/Pods-ZPJsonPreview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFF701D812487BA101380B70 /* Pods_ZPJsonPreview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPJsonPreview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBE8823EA0DFC678FCEE78C /* Pods-ZPJsonPreview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPJsonPreview_Example.release.xcconfig"; path = "Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZPViewController.h */,
 				6003F5A6195388D20070C39A /* ZPViewController.m */,
+				37DDD68A2B32EDF8009F5CDB /* zp_json_test.json */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +196,6 @@
 				A0E2A76F623B0CC27A3A4AC7 /* Pods-ZPJsonPreview_Tests.debug.xcconfig */,
 				0290ACCFB2E0C5EA13775B24 /* Pods-ZPJsonPreview_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = pengbingxiang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = RPRE3P3ZM5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +286,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				37DDD68B2B32EDF8009F5CDB /* zp_json_test.json in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -513,9 +520,11 @@
 			baseConfigurationReference = 86BE881B62648F740530B838 /* Pods-ZPJsonPreview_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RPRE3P3ZM5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPJsonPreview/ZPJsonPreview-Prefix.pch";
 				INFOPLIST_FILE = "ZPJsonPreview/ZPJsonPreview-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,9 +538,11 @@
 			baseConfigurationReference = BEBE8823EA0DFC678FCEE78C /* Pods-ZPJsonPreview_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RPRE3P3ZM5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPJsonPreview/ZPJsonPreview-Prefix.pch";
 				INFOPLIST_FILE = "ZPJsonPreview/ZPJsonPreview-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

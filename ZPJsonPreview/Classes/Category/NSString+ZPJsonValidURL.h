@@ -24,8 +24,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (ZPJSONValidURL *)zp_json_validURL;
 
-+ (NSDictionary *)zp_json_data_test;
-
 @end
 
 NS_ASSUME_NONNULL_END

@@ -12,7 +12,7 @@
 - (UIImage *)expandIcon
 {
     if (!_expandIcon) {
-        _expandIcon = [UIImage imageNamed:@"zp_json_expand.png"];
+        _expandIcon = [UIImage imageNamed:@"zp_json_expand"];
     }
     return _expandIcon;
 }
@@ -20,7 +20,7 @@
 - (UIImage *)foldIcon
 {
     if (!_foldIcon) {
-        _foldIcon = [UIImage imageNamed:@"zp_json_folded.png"];
+        _foldIcon = [UIImage imageNamed:@"zp_json_folded"];
     }
     return _foldIcon;
 }

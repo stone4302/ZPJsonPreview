@@ -72,20 +72,6 @@
     return self;
 }
 
-+ (NSDictionary *)zp_json_data_test
-{
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"zp_json_test" ofType:@"json"];
-    NSData *pathData = [NSData dataWithContentsOfFile:path];
-    NSDictionary *jsonDic = nil;
-    if (pathData) {
-        id jsonData = [NSJSONSerialization JSONObjectWithData:pathData options:(NSJSONReadingMutableContainers) error:nil];
-        if ([jsonData isKindOfClass:NSDictionary.class]) {
-            jsonDic = (NSDictionary *)jsonData;
-        }
-    }
-    return jsonDic;
-}
-
 #pragma mark - private
 
 /// Used to match any url, including ip addresses.

@@ -38,10 +38,13 @@ ZPJSONTextViewDelegate
 - (void)config
 {
     [self addSubview:self.jsonTextView];
+}
+
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
     
-    [self.jsonTextView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.bottom.left.right.mas_equalTo(0);
-    }];
+    self.jsonTextView.frame = self.bounds;
 }
 
 #pragma mark - public

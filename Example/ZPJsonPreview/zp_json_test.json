@@ -1,0 +1,37 @@
+{
+    "result":{
+        "data":"",
+        "operationData":[
+            {
+                "activities":[
+                    {
+                        "actionid":"24BGCR7YrXk",
+                        "actionfrom":"combine",
+                        "actiontrack":"combine_24BGCR7YrXk",
+                        "pic":"https://pic1.58cdn.com.cn/nowater/beehive/n_v332c7a50031dc45928c36836be4cee89e.png",
+                        "priority":"18094679",
+                        "url":"wbmain://jump/core/common?params=%7B%22url%22%3A%22https%3A%2F%2Fsurvey.58.com%2F%3Fid%3D1042650%26hash%3Dh21s%22%7D"
+                    }
+                ],
+                "config":{
+                    "showInterval":"1",
+                    "index":"0",
+                    "adPlaceDiv":"jisu58_chat_tab_resume_banner",
+                    "isShowClose":"1"
+                }
+            }
+        ],
+        "jingbao":{
+            "total":0,
+            "infoList":[
+
+            ]
+        },
+        "fontData":{
+            "fontKey":"2ed0956c5b6d422491f924466f061bed",
+            "fontUrl":"https://font.58.com/font/2ed0956c5b6d422491f924466f061bed.ttf"
+        }
+    },
+    "resultmsg":"success",
+    "resultcode":0
+}

@@ -31,8 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ZPJsonPreview/Classes/**/*'
-  s.resource = ['ZPJsonPreview/Assets/Sources/*']
+#  s.resource_bundles = {
+#     'ZPJsonPreview' => ['ZPJsonPreview/Assets/*.xcassets']
+#  }
   
+   s.resources = "ZPJsonPreview/Assets/*.xcassets"
   # s.resource_bundles = {
   #   'ZPJsonPreview' => ['ZPJsonPreview/Assets/*.png']
   # }
