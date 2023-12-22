@@ -1,6 +1,7 @@
-use_frameworks!
+#use_frameworks!
 
 platform :ios, '10.0'
+#install! 'cocoapods', :disable_input_output_paths => true
 
 target 'ZPJsonPreview_Example' do
   pod 'ZPJsonPreview', :path => '../'

@@ -13,6 +13,11 @@
 {
     if (!_expandIcon) {
         _expandIcon = [UIImage imageNamed:@"zp_json_expand"];
+        if (!_expandIcon || ![_expandIcon isKindOfClass:UIImage.class]) {
+            NSString *path = [[NSBundle mainBundle] pathForResource:@"ZPJsonPreview" ofType:@"bundle"];
+            NSBundle *bundle = [NSBundle bundleWithPath:path];
+            _expandIcon = [UIImage imageNamed:@"zp_json_expand" inBundle:bundle compatibleWithTraitCollection:nil];
+        }
     }
     return _expandIcon;
 }
@@ -21,6 +26,11 @@
 {
     if (!_foldIcon) {
         _foldIcon = [UIImage imageNamed:@"zp_json_folded"];
+        if (!_foldIcon || ![_foldIcon isKindOfClass:UIImage.class]) {
+            NSString *path = [[NSBundle mainBundle] pathForResource:@"ZPJsonPreview" ofType:@"bundle"];
+            NSBundle *bundle = [NSBundle bundleWithPath:path];
+            _foldIcon = [UIImage imageNamed:@"zp_json_folded" inBundle:bundle compatibleWithTraitCollection:nil];
+        }
     }
     return _foldIcon;
 }

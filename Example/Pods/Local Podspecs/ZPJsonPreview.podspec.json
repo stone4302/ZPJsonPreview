@@ -19,5 +19,9 @@
     "ios": "10.0"
   },
   "source_files": "ZPJsonPreview/Classes/**/*",
-  "resources": "ZPJsonPreview/Assets/*.xcassets"
+  "resource_bundles": {
+    "ZPJsonPreview": [
+      "ZPJsonPreview/Assets/*.xcassets"
+    ]
+  }
 }

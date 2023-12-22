@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C9C5A8EB7BFAF99CFFAED23 /* Pods_ZPJsonPreview_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2103FE06FEFDB48609EE9456 /* Pods_ZPJsonPreview_Example.framework */; };
 		37DDD68B2B32EDF8009F5CDB /* zp_json_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 37DDD68A2B32EDF8009F5CDB /* zp_json_test.json */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -24,7 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A2307B858931C8AC84C62F1A /* Pods_ZPJsonPreview_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF701D812487BA101380B70 /* Pods_ZPJsonPreview_Tests.framework */; };
+		8F997AF4A893B9C91C763BB0 /* libPods-ZPJsonPreview_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C06AA7F65FA76376142723 /* libPods-ZPJsonPreview_Example.a */; };
+		96137DA64D395C50C234A03E /* libPods-ZPJsonPreview_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95352C894FE6E05EFAEC1CD7 /* libPods-ZPJsonPreview_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0290ACCFB2E0C5EA13775B24 /* Pods-ZPJsonPreview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPJsonPreview_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZPJsonPreview_Tests/Pods-ZPJsonPreview_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2103FE06FEFDB48609EE9456 /* Pods_ZPJsonPreview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPJsonPreview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C06AA7F65FA76376142723 /* libPods-ZPJsonPreview_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPJsonPreview_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC8E9079FAB768F3539C6F7 /* ZPJsonPreview.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZPJsonPreview.podspec; path = ../ZPJsonPreview.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		37DDD68A2B32EDF8009F5CDB /* zp_json_test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zp_json_test.json; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZPJsonPreview_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPJsonPreview_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,9 +65,9 @@
 		77B184E584D246D61AA94C6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		86BE881B62648F740530B838 /* Pods-ZPJsonPreview_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPJsonPreview_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95352C894FE6E05EFAEC1CD7 /* libPods-ZPJsonPreview_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPJsonPreview_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDD2F650540A5E6798B3E70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A0E2A76F623B0CC27A3A4AC7 /* Pods-ZPJsonPreview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPJsonPreview_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZPJsonPreview_Tests/Pods-ZPJsonPreview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFF701D812487BA101380B70 /* Pods_ZPJsonPreview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPJsonPreview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBE8823EA0DFC678FCEE78C /* Pods-ZPJsonPreview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPJsonPreview_Example.release.xcconfig"; path = "Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0C9C5A8EB7BFAF99CFFAED23 /* Pods_ZPJsonPreview_Example.framework in Frameworks */,
+				8F997AF4A893B9C91C763BB0 /* libPods-ZPJsonPreview_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A2307B858931C8AC84C62F1A /* Pods_ZPJsonPreview_Tests.framework in Frameworks */,
+				96137DA64D395C50C234A03E /* libPods-ZPJsonPreview_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +125,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				2103FE06FEFDB48609EE9456 /* Pods_ZPJsonPreview_Example.framework */,
-				AFF701D812487BA101380B70 /* Pods_ZPJsonPreview_Tests.framework */,
+				02C06AA7F65FA76376142723 /* libPods-ZPJsonPreview_Example.a */,
+				95352C894FE6E05EFAEC1CD7 /* libPods-ZPJsonPreview_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E2298F6801DCBE7C21313012 /* [CP] Embed Pods Frameworks */,
+				7A3C85FDD6CA4A6854B3D91F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,7 +229,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				1A3421468247AB835C858FC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,24 +302,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A3421468247AB835C858FC4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZPJsonPreview_Tests/Pods-ZPJsonPreview_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZPJsonPreview_Tests/Pods-ZPJsonPreview_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4D7DDDA59AF82BC9F0A25028 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +324,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7A3C85FDD6CA4A6854B3D91F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZPJsonPreview/ZPJsonPreview.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZPJsonPreview.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7ABEB6B17C505A48776681F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,24 +362,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E2298F6801DCBE7C21313012 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZPJsonPreview/ZPJsonPreview.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZPJsonPreview.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -7,93 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		025DB2B20D508DD5AC26ED2E5EAC4A35 /* ZPJSONException.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9FB6865C718F52DD986A5761BE7E78 /* ZPJSONException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		098302028B785A1DF2DA9E38C0593CE2 /* NSString+ZPJsonValidURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EBEE4895E773F42FA80432A0617638 /* NSString+ZPJsonValidURL.m */; };
-		099C27923DB15B4052914CF73870ACB8 /* ZPJSONHighlightColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 609C069D458F20E332012AE04B44B662 /* ZPJSONHighlightColor.m */; };
-		0AC66495D063B714C09944030406ADEA /* Pods-ZPJsonPreview_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2022B7CF8CD33E8D4D4CACCDA4B4BA53 /* Pods-ZPJsonPreview_Tests-dummy.m */; };
-		172574092F6C38EE36195B8C9BA6EE6F /* NSMutableDictionary+ZPJsonSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 35AC1A0CF97C46F56BFECBC20B227B89 /* NSMutableDictionary+ZPJsonSort.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E3D5A1378E830F74CB138737CC2FFB4 /* NSString+ZPJsonValidURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7932BC0C176F0902EB907072865C57 /* NSString+ZPJsonValidURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22F9D653E3B069E68C042A23FBEAA880 /* NSData+ZPJSONEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C1DD674A87B2CBAB746541B520237B /* NSData+ZPJSONEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		2F77F7CA66FC17B4AFD835AC30FDFE53 /* ZPJSONDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 175B528211AF6F7E28F432987A4DE903 /* ZPJSONDecorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F88E338CF9F62FA20961C7D0E37F0D9 /* ZPJsonPreview-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF59C210B30D65CE0F3BEC2847961AE /* ZPJsonPreview-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		31A8D9EDB6772D66403B3127853E76E0 /* ZPJSONError.h in Headers */ = {isa = PBXBuildFile; fileRef = A15E7A68B5C94AACD5E66E814A1B28A2 /* ZPJSONError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33B50925CA44EB88F949BEA6D21B3286 /* NSMutableDictionary+ZPJsonSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D98FFE4431D441443B65F581521A05 /* NSMutableDictionary+ZPJsonSort.m */; };
-		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3CBB981A902462267139F9A33E34B457 /* ZPJSONDocumentReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 09FCBF921783532BE619BF4AB39D2999 /* ZPJSONDocumentReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43BA8B187D336301AF2AE60EB9A947EC /* NSDictionary+ZPJsonSort.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF88C6004C997E6916AAD71C83A2931 /* NSDictionary+ZPJsonSort.m */; };
-		44E9F6F1F1CE2F8337A1271080C64D84 /* ZPJSONHighlightStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3809AC617569F0D669A680B130DB4D /* ZPJSONHighlightStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D0188C396D0B7AF9004B57E1124FA3 /* ZPJSONTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 678C67E3188B5BFD00479D1D751D2092 /* ZPJSONTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F2BB1737405F79BA3F8AF9CC1B2C599 /* Pods-ZPJsonPreview_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94556E5054ED078DD4673AD80D289318 /* Pods-ZPJsonPreview_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51A8FD3E92D8C0BE5687525407AB6AB9 /* ZPJSONHighlightStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C5327246FC8B578019C7CE092B4E36 /* ZPJSONHighlightStyle.m */; };
-		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		579A86F96B5C115967C97EDD54DCC002 /* ZPJSONConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E20ED6A7A64C1F700E725F5F674BAAA4 /* ZPJSONConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59C61CEF59771727531E176EE3C96732 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175C8903A4707772C2C4F9858189FEF0 /* Images.xcassets */; };
-		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		605D7FE934EE406804174F809C481B51 /* NSString+ZPJSONObjectKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A9F65EB718454068E81F49E474CD2 /* NSString+ZPJSONObjectKey.m */; };
-		61A76FC917F82B8DDA822EE02E631853 /* ZPJSONHighlightColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 287FE1B91E2CEFC3D8D1E50E50C59729 /* ZPJSONHighlightColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		6E0EEEA8DC746D5CC4A414DCCA269D60 /* ZPJsonPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 70562C70970F603FAAAE7E903EBAFFCB /* ZPJsonPreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72673A9894084051B84EFF5C38B74642 /* NSString+ZPJSONObjectKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 471598B6D8627C79B611A68631BF3E04 /* NSString+ZPJSONObjectKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		77B9AEAB6CE339FE4AA81BDBEE02F392 /* ZPJSONDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = A56373223CD3899253B15DB444EBD357 /* ZPJSONDecorator.m */; };
-		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		7CEAD2BA5E5C7ECFBECCFD18268D380B /* Pods-ZPJsonPreview_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA472B9144B0949DFBB80E8459755F5 /* Pods-ZPJsonPreview_Example-dummy.m */; };
-		7CFE5EE22916362FDA2552C6CE9141DD /* ZPJSONSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A9091E685350693737C10EBDECAFC /* ZPJSONSlice.m */; };
-		8028496D86859F17663A52007AE6259D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
-		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8D85D45A6CBB80247E11676DD81C8F2E /* ZPLineNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC018F2B10955CF8167915C55936C62D /* ZPLineNumberCell.m */; };
-		8DA98F3890FFED3A174F6E50D3BE61D5 /* ZPJSONError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B452C83C7D80AACB5C1A74A8668D551 /* ZPJSONError.m */; };
-		901FD140E03C3CC11CAAA06F4D31A4AE /* ZPJSONException.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4287D42F48AD4FD0B06E5096146C20 /* ZPJSONException.m */; };
-		94954EA39887C0B189C26CB7E123208E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		99CF74251CA6298B1274D8118747028C /* ZPJsonPreview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ABE6922C661FEA4ACAC906B7596711 /* ZPJsonPreview-dummy.m */; };
-		9B11CF73D3F13CE4BA2FB676735729CD /* ZPJsonPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A96FAF40BB823CD9AB8F653B2AF40F /* ZPJsonPreview.m */; };
-		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		A234F28C78B17A61E421C66F06E490EC /* ZPJSONConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCAB2F107AE43C366E6DBEFFEE7B59A /* ZPJSONConfig.m */; };
-		A438A4520C621200629E0CF9F0F8F4E5 /* ZPLineNumberTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8227D201C66CD0EE3AEB74383C333B39 /* ZPLineNumberTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC508110178D4E0CBDBE081A34EC017A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		AF25302B6BFB303E8AB57BB1892F9D18 /* ZPJSONValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EC2D1F5D5BFAE8689367D81C6EA304 /* ZPJSONValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B11E0329F1D1988C323EB0832ABCF9B0 /* Pods-ZPJsonPreview_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E2FB3D5583D386BACD29E6ED823EA2 /* Pods-ZPJsonPreview_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		C34212D2FB9AEE659D9310DD6A48A57E /* ZPJSONTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E25A9431829EA65CC144AA1E523C16 /* ZPJSONTextView.m */; };
-		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		C65C1C3EEE6B010A28819B9D759EC5F3 /* ZPJSONSlice.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D44F7DC2F89A2F9BA6C7098571B169 /* ZPJSONSlice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
-		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		DCF5BE09C70182A1B0B3F809449D0915 /* ZPJSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD4B2CFD5C212EE211538F37554528 /* ZPJSONValue.m */; };
-		E313813B159F45E79587C0AB1D12F96C /* NSData+ZPJSONEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF563BF68570F485C92DDF70778C3333 /* NSData+ZPJSONEncode.m */; };
-		E3F3F1077BB5A64F6B8CC9F4A6E93F68 /* ZPJSONDocumentReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E139DCD54BA21B1E1C2CE99FF70556 /* ZPJSONDocumentReader.m */; };
-		F339077605A466EA4421CED25190C198 /* ZPJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD5A4FE7BBB83439755C964AA80B579 /* ZPJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6F75373FF8C80E60A0C12AE7B663BB8 /* NSDictionary+ZPJsonSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCAB466FD963EE62B061297A5B572E3 /* NSDictionary+ZPJsonSort.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8C6C558358A4515B794507A34D44937 /* ZPLineNumberCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DE133531682707E12EF4CE050A4A0C /* ZPLineNumberCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F99C7EEC367E72615F667EC8EA9EA867 /* ZPLineNumberTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77847E9600039DB3FF63281176485ADD /* ZPLineNumberTableView.m */; };
-		FA34405A17E9A2FE730B450624BDED5E /* ZPJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F2B549C34E886C514430FFD160E268 /* ZPJSONParser.m */; };
-		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0812509E73BACE81F939E224E1A2FC77 /* ZPJSONError.h in Headers */ = {isa = PBXBuildFile; fileRef = D19C25B6C10BA4C279C75E2B53366D34 /* ZPJSONError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09F2781752938806F40799BC2CF1997A /* NSString+ZPJsonValidURL.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B668481D5DCD491238E382FCCEF59F /* NSString+ZPJsonValidURL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E8879AAE01AFFC4943A85D8849C0A0C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		0E90F94E321E652EF7CD04BFFC7E3678 /* NSData+ZPJSONEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC9B81AC4063D1EBE04ADB01A5F4E1F /* NSData+ZPJSONEncode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12783BCF064E4BDD888A80031E073ED8 /* NSMutableDictionary+ZPJsonSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599290BCCF41BCA8952133DC80B86F1 /* NSMutableDictionary+ZPJsonSort.m */; };
+		1BF5C897DBA2C110B26B8C08806EE087 /* ZPJsonPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BD602AF198CC16AE6A68130B4E304F /* ZPJsonPreview.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FE6F5B0D005A6A643726D2EB9B2735A /* ZPJSONSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1F1C0F966BB6FF0892407B98C8442 /* ZPJSONSlice.m */; };
+		25B0BC0624941FD5E679F0C58F985675 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		282651B90EFBAF8757AFF902F6A57973 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2995044D59DA25986CFC2FEEDEDA2859 /* ZPJSONValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A54B8760A87617A245C76F46500A779 /* ZPJSONValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29AB1518F0DA448AD3E7B7C00C3FE5C3 /* ZPJSONHighlightColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8930C1E38D28ACFC84856C899D37D3EF /* ZPJSONHighlightColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F9CB75308942E41D84A3318CAAE0C11 /* NSData+ZPJSONEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AB0EA9D30768E848E7A6E1C3CE9CB8 /* NSData+ZPJSONEncode.m */; };
+		30172234B6D0EC29791E121E066B69FB /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3833637A113A9E6F7ABF5D2C7ABEF1D1 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B06CED51EF5C4DA0B5364EA0D970078 /* NSString+ZPJSONObjectKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAC0CAB17211E224552EDF885B14E2E /* NSString+ZPJSONObjectKey.m */; };
+		3D11C9B18EA4B7C999E61AA5FA4FBD9E /* NSString+ZPJSONObjectKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8DFBAAB4399236B7218F1A757A5B05 /* NSString+ZPJSONObjectKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		417620E824232D2D4D8A982F04D69B3E /* ZPLineNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D76E91C319EEA6185A0270F65701A59 /* ZPLineNumberCell.m */; };
+		46F41861FF9806674E0E9ABD257E6109 /* ZPLineNumberTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EAC0530D080AD46D6C94CEF094E22D /* ZPLineNumberTableView.m */; };
+		4CA2798536B1F7A133D23AD5B6393571 /* ZPJSONHighlightStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = EF61E291F0B48B0B88EBACFFFF9C0AFF /* ZPJSONHighlightStyle.m */; };
+		5006EC5027602735C9A45AAF2F747A50 /* NSDictionary+ZPJsonSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 4171201CF1BD9E66F4BFDF14A548470D /* NSDictionary+ZPJsonSort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		515981CE47F00FDD8FA7CE057AE2570C /* ZPJsonPreview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5678D6C01F7EBF9B4A3DC19740405 /* ZPJsonPreview-dummy.m */; };
+		519F3A9CAF4BFBAD361D3997F6CF8E3D /* ZPJSONConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92D868A097B69C3B175EFEEF36101A /* ZPJSONConfig.m */; };
+		55F51E4399527A9D64A9D8190ADE580E /* ZPJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F545B9AE4D7FB772039E4CD4F035E0AD /* ZPJSONParser.m */; };
+		5781D3E94857A8180A902071463C691F /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
+		5851A7FCD661012B894FD46B87720270 /* ZPJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E24F6CF231FE4D16C95D804435C3E38 /* ZPJSONParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A6A06FF807BD303C1B8847B49CEE0F0 /* ZPJSONException.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2F1510BB9BD5F2A5521612DF0FB15 /* ZPJSONException.m */; };
+		63DD657C00AD8332E5454E5B2B9D2FB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		65C52717D8CE3882252C5EC3CE7CE91F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4964EEFBA80E32A6A3082BF93B7DEBEB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B4C91F533FB395C85D48F3AF27832BB /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72BA19C8F330D08AF96F1CDB8FB0E367 /* ZPJSONDocumentReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 572BDFE21DD7182E1317E9D27C5117C5 /* ZPJSONDocumentReader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75B07F7932DCF50D1D1972107BDE7234 /* ZPJSONHighlightStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = E36E36F1ED62E1794094054A701B841E /* ZPJSONHighlightStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F8034C1EED3F33F457E5D0ACAA324B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
+		85A4B2EA37760D45A19578C46F8E5FC1 /* Pods-ZPJsonPreview_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3FF9C6830799ED5F46355078E970B /* Pods-ZPJsonPreview_Tests-dummy.m */; };
+		93A1B55D1175A8B7DEED7B1C31C33FEE /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9833B62988A2B926F32404B7AC7582C8 /* ZPJSONTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D984EDD0A01609841C69993CE276B7 /* ZPJSONTextView.m */; };
+		9D068B88E82E78602BED792FDE20CA42 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
+		A56DA09422624A4690873C54874A185E /* NSString+ZPJsonValidURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FABC86BF086342349749480869E0D /* NSString+ZPJsonValidURL.m */; };
+		A97D2450E7992211E167BF96FF0AF9F0 /* ZPJSONTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82721B7EEC0B74FDF8C9D558C46006CC /* ZPJSONTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4C793A0AEED7A227008E8DBDF56CBD5 /* ZPJSONSlice.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D339A01B69B724BB7814F4F869D526 /* ZPJSONSlice.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD6E1CCDFE55E86F18025D5A79F91864 /* Pods-ZPJsonPreview_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 720622F711D513075B3C6DA85B43A77D /* Pods-ZPJsonPreview_Example-dummy.m */; };
+		BF8B4EB4B7F54D618389C3E71CB6A414 /* ZPJSONDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = F36F383F1BD6C053CC37B11AADCE9B45 /* ZPJSONDecorator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C07EFC0ED1981FBB2B069668432EB1FC /* ZPJSONHighlightColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1CDE20B0F62EA7F9C8EE6A4632830 /* ZPJSONHighlightColor.m */; };
+		C6009F2355CA5CC3E87C4F41AE939705 /* NSDictionary+ZPJsonSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 094A6E89383C7AC777658AB24FDB71C4 /* NSDictionary+ZPJsonSort.m */; };
+		C6286B6129FF62A84FB5D6B1766BB043 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
+		C7277844DE1504E21BFCBCAC3DD97F73 /* ZPJSONValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B45EF99A403D7755F391288753D9F /* ZPJSONValue.m */; };
+		C75A0158B1B147209F9DD3790F2779CE /* ZPJsonPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B7E064207B4D4C1ACC4CE52815DE6B /* ZPJsonPreview.m */; };
+		CA88D15E8F34CA8584368DA2CA151303 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
+		CF343CCCB81D686192E54B2B738C4520 /* ZPJSONConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB09AD007EC44FC44693C5105491508 /* ZPJSONConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1A7516D90128CE0371AE7118A0CFCC6 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
+		D4B72F8007930215A0841FA6A475063B /* ZPLineNumberTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B389DBE5A01FA03B6BBF37732D7D115 /* ZPLineNumberTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D59605E34E1695742BED1ED8AF805473 /* zp_json_Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5260309E714FA1E57EB29D47F946B967 /* zp_json_Images.xcassets */; };
+		D9E04FD74E10BA9A2B7175765FF5E5A1 /* ZPJSONException.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA13163EFC38AEB4ED5203C05EFE32B /* ZPJSONException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE2883427AEB875600FFDE0B0CAC3B13 /* Pods-ZPJsonPreview_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB4AE2AD975FDC35A8FF1CC029E4108 /* Pods-ZPJsonPreview_Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEC7405AEC6079DE16C7CF73E9F85731 /* ZPJSONError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E20DA768E10D33BFB17FA52E4DFFF /* ZPJSONError.m */; };
+		DF267BC1AC339ACD6DC46DB3ED4CAF88 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78446EA2EE3558B1B96DFA6EB30034A5 /* FBSnapshotTestCase-dummy.m */; };
+		E001319B3D5050D52815FA3A23D1A40E /* ZPLineNumberCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B544DD1E681C3BA47D2598C5FD176B2 /* ZPLineNumberCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E441E3348AF72B285DB333BCFA4EC18A /* ZPJSONDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFE59039417700EF786DF74ADF596EF /* ZPJSONDecorator.m */; };
+		E70ABED92F0B7F36BDE01AE3371E9658 /* ZPJSONDocumentReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE369A9DA4DFD560936D641E7E6F075 /* ZPJSONDocumentReader.m */; };
+		E795F76E748A5BB7F41FC301251FD5D8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBB4B5076D34AAA57D99A5044C1DABAD /* NSMutableDictionary+ZPJsonSort.h in Headers */ = {isa = PBXBuildFile; fileRef = B50344CEF22F2518ED829D98B2006869 /* NSMutableDictionary+ZPJsonSort.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		60F28B5D5509A3C28350CB4DC2919E0E /* PBXContainerItemProxy */ = {
+		152D2C1605864F870F97D0FC181EDE43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AE069303BA26E3E0F8142CFE5BFEF9;
+			remoteInfo = "ZPJsonPreview-ZPJsonPreview";
+		};
+		30A480F524DDC140CB64832C7FED06A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		A2241FE9BE5938B87CCA5A1ABB2E17A1 /* PBXContainerItemProxy */ = {
+		40C6C05E65BD3D4FFC9134FAB9BAD69B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5122C4ABC61DEC123D26BC67F1A21544;
 			remoteInfo = "Pods-ZPJsonPreview_Example";
 		};
-		D80A55DB360A2D9492E16C4233CECF8B /* PBXContainerItemProxy */ = {
+		C04AFAFBAE036241CD10CBAB2FE2D9D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -103,359 +101,343 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09FCBF921783532BE619BF4AB39D2999 /* ZPJSONDocumentReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONDocumentReader.h; sourceTree = "<group>"; };
-		0EF5CD876B9AF762158A7A264E26488E /* Pods-ZPJsonPreview_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPJsonPreview_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		175B528211AF6F7E28F432987A4DE903 /* ZPJSONDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONDecorator.h; sourceTree = "<group>"; };
-		175C8903A4707772C2C4F9858189FEF0 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ZPJsonPreview/Assets/Images.xcassets; sourceTree = "<group>"; };
-		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1B452C83C7D80AACB5C1A74A8668D551 /* ZPJSONError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONError.m; sourceTree = "<group>"; };
-		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1E3809AC617569F0D669A680B130DB4D /* ZPJSONHighlightStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONHighlightStyle.h; sourceTree = "<group>"; };
-		2022B7CF8CD33E8D4D4CACCDA4B4BA53 /* Pods-ZPJsonPreview_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPJsonPreview_Tests-dummy.m"; sourceTree = "<group>"; };
-		21E139DCD54BA21B1E1C2CE99FF70556 /* ZPJSONDocumentReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONDocumentReader.m; sourceTree = "<group>"; };
-		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		287FE1B91E2CEFC3D8D1E50E50C59729 /* ZPJSONHighlightColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONHighlightColor.h; sourceTree = "<group>"; };
-		322490C9CDAF8EDBE352722AFB94D294 /* Pods-ZPJsonPreview_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZPJsonPreview_Example"; path = Pods_ZPJsonPreview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3233504D7C1785067CD0F1D94FD76083 /* Pods-ZPJsonPreview_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPJsonPreview_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		32ABE6922C661FEA4ACAC906B7596711 /* ZPJsonPreview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPJsonPreview-dummy.m"; sourceTree = "<group>"; };
-		33E57854577A72E647A91C4213942010 /* Pods-ZPJsonPreview_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPJsonPreview_Example-Info.plist"; sourceTree = "<group>"; };
-		35AC1A0CF97C46F56BFECBC20B227B89 /* NSMutableDictionary+ZPJsonSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ZPJsonSort.h"; sourceTree = "<group>"; };
-		35E2FB3D5583D386BACD29E6ED823EA2 /* Pods-ZPJsonPreview_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPJsonPreview_Tests-umbrella.h"; sourceTree = "<group>"; };
-		39C1DD674A87B2CBAB746541B520237B /* NSData+ZPJSONEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+ZPJSONEncode.h"; sourceTree = "<group>"; };
-		3B116D367C7FE90EFE5999A70AFB210A /* Pods-ZPJsonPreview_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPJsonPreview_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		403F0866763FF9EDE2D1EB7A27632FE6 /* ZPJsonPreview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPJsonPreview-prefix.pch"; sourceTree = "<group>"; };
-		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		471598B6D8627C79B611A68631BF3E04 /* NSString+ZPJSONObjectKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ZPJSONObjectKey.h"; sourceTree = "<group>"; };
-		4BCAB466FD963EE62B061297A5B572E3 /* NSDictionary+ZPJsonSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZPJsonSort.h"; sourceTree = "<group>"; };
-		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		4E3A9F65EB718454068E81F49E474CD2 /* NSString+ZPJSONObjectKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZPJSONObjectKey.m"; sourceTree = "<group>"; };
-		51C5327246FC8B578019C7CE092B4E36 /* ZPJSONHighlightStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONHighlightStyle.m; sourceTree = "<group>"; };
-		54FFC4EA5235903176952625CEA64294 /* ZPJsonPreview.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPJsonPreview.modulemap; sourceTree = "<group>"; };
-		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		609C069D458F20E332012AE04B44B662 /* ZPJSONHighlightColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONHighlightColor.m; sourceTree = "<group>"; };
-		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		66EBEE4895E773F42FA80432A0617638 /* NSString+ZPJsonValidURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZPJsonValidURL.m"; sourceTree = "<group>"; };
-		678C67E3188B5BFD00479D1D751D2092 /* ZPJSONTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONTextView.h; sourceTree = "<group>"; };
-		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6C4287D42F48AD4FD0B06E5096146C20 /* ZPJSONException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONException.m; sourceTree = "<group>"; };
-		6D9FB6865C718F52DD986A5761BE7E78 /* ZPJSONException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONException.h; sourceTree = "<group>"; };
-		70562C70970F603FAAAE7E903EBAFFCB /* ZPJsonPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJsonPreview.h; sourceTree = "<group>"; };
-		74D44F7DC2F89A2F9BA6C7098571B169 /* ZPJSONSlice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONSlice.h; sourceTree = "<group>"; };
-		761A9091E685350693737C10EBDECAFC /* ZPJSONSlice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONSlice.m; sourceTree = "<group>"; };
-		77847E9600039DB3FF63281176485ADD /* ZPLineNumberTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPLineNumberTableView.m; sourceTree = "<group>"; };
-		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		7E7F00CE97010461D7C3F53DE13EB5C5 /* ZPJsonPreview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPJsonPreview.debug.xcconfig; sourceTree = "<group>"; };
-		7F7932BC0C176F0902EB907072865C57 /* NSString+ZPJsonValidURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ZPJsonValidURL.h"; sourceTree = "<group>"; };
-		8227D201C66CD0EE3AEB74383C333B39 /* ZPLineNumberTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPLineNumberTableView.h; sourceTree = "<group>"; };
-		889DE5A1FCBC145E342432A18A027369 /* Pods-ZPJsonPreview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPJsonPreview_Example.release.xcconfig"; sourceTree = "<group>"; };
-		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		8DAD4B2CFD5C212EE211538F37554528 /* ZPJSONValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONValue.m; sourceTree = "<group>"; };
-		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		94556E5054ED078DD4673AD80D289318 /* Pods-ZPJsonPreview_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPJsonPreview_Example-umbrella.h"; sourceTree = "<group>"; };
-		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		951045447F34B13231DA37D74749A57B /* ZPJsonPreview-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPJsonPreview-Info.plist"; sourceTree = "<group>"; };
-		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		97469E488B6DCE5DEF3F71198BD6FFF0 /* Pods-ZPJsonPreview_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPJsonPreview_Example-frameworks.sh"; sourceTree = "<group>"; };
-		97E25A9431829EA65CC144AA1E523C16 /* ZPJSONTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONTextView.m; sourceTree = "<group>"; };
-		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9ADB5DF07CB2B4EC878281E27B7C12F6 /* ZPJsonPreview */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPJsonPreview; path = ZPJsonPreview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A15E7A68B5C94AACD5E66E814A1B28A2 /* ZPJSONError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONError.h; sourceTree = "<group>"; };
-		A32C90316814E9DF5B8085E826C59410 /* Pods-ZPJsonPreview_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPJsonPreview_Example.modulemap"; sourceTree = "<group>"; };
-		A370B44E747EB7C56CF08C5B07577224 /* Pods-ZPJsonPreview_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPJsonPreview_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A4DE133531682707E12EF4CE050A4A0C /* ZPLineNumberCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPLineNumberCell.h; sourceTree = "<group>"; };
-		A56373223CD3899253B15DB444EBD357 /* ZPJSONDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONDecorator.m; sourceTree = "<group>"; };
-		A75A29BB146C924A0170955F0EAAD3AA /* Pods-ZPJsonPreview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPJsonPreview_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B35920CB25E2809DE0285E839FCBB262 /* Pods-ZPJsonPreview_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPJsonPreview_Tests.modulemap"; sourceTree = "<group>"; };
-		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		C2E1F7A1E67A426E683D131295AD6513 /* ZPJsonPreview.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPJsonPreview.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C79C368B3A16B63F33D06056F5CA565B /* ZPJsonPreview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPJsonPreview.release.xcconfig; sourceTree = "<group>"; };
-		C9A96FAF40BB823CD9AB8F653B2AF40F /* ZPJsonPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJsonPreview.m; sourceTree = "<group>"; };
-		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CCCAB2F107AE43C366E6DBEFFEE7B59A /* ZPJSONConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONConfig.m; sourceTree = "<group>"; };
-		CDF88C6004C997E6916AAD71C83A2931 /* NSDictionary+ZPJsonSort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZPJsonSort.m"; sourceTree = "<group>"; };
-		CEF59C210B30D65CE0F3BEC2847961AE /* ZPJsonPreview-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPJsonPreview-umbrella.h"; sourceTree = "<group>"; };
-		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D17952A0296C8B2F16F62C72AE43F972 /* Pods-ZPJsonPreview_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZPJsonPreview_Tests"; path = Pods_ZPJsonPreview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		D9D98FFE4431D441443B65F581521A05 /* NSMutableDictionary+ZPJsonSort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZPJsonSort.m"; sourceTree = "<group>"; };
-		DFBBCE6D1D07355CB28C2357E196A266 /* Pods-ZPJsonPreview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPJsonPreview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DFD5A4FE7BBB83439755C964AA80B579 /* ZPJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONParser.h; sourceTree = "<group>"; };
-		E1EC2D1F5D5BFAE8689367D81C6EA304 /* ZPJSONValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONValue.h; sourceTree = "<group>"; };
-		E20ED6A7A64C1F700E725F5F674BAAA4 /* ZPJSONConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONConfig.h; sourceTree = "<group>"; };
-		E42CA0861E638E392290801A78ED1C0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E4EDDF0A9B356E0557043D95646E04EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EBA472B9144B0949DFBB80E8459755F5 /* Pods-ZPJsonPreview_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPJsonPreview_Example-dummy.m"; sourceTree = "<group>"; };
-		F3695852000CCD448B643537C096DEC5 /* Pods-ZPJsonPreview_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPJsonPreview_Tests-Info.plist"; sourceTree = "<group>"; };
-		F4056887BF2C3D8BE82B8F7F0D067B8E /* Pods-ZPJsonPreview_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPJsonPreview_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F8F2B549C34E886C514430FFD160E268 /* ZPJSONParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONParser.m; sourceTree = "<group>"; };
-		FC018F2B10955CF8167915C55936C62D /* ZPLineNumberCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPLineNumberCell.m; sourceTree = "<group>"; };
-		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		FF563BF68570F485C92DDF70778C3333 /* NSData+ZPJSONEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZPJSONEncode.m"; sourceTree = "<group>"; };
-		FFD3B04879325F03E67E254BC0539E5C /* Pods-ZPJsonPreview_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPJsonPreview_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		094A6E89383C7AC777658AB24FDB71C4 /* NSDictionary+ZPJsonSort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZPJsonSort.m"; sourceTree = "<group>"; };
+		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		0B544DD1E681C3BA47D2598C5FD176B2 /* ZPLineNumberCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPLineNumberCell.h; sourceTree = "<group>"; };
+		0B9EFA6A190E87E69F05CA28BDD7FFA4 /* ZPJsonPreview.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPJsonPreview.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BAC0CAB17211E224552EDF885B14E2E /* NSString+ZPJSONObjectKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZPJSONObjectKey.m"; sourceTree = "<group>"; };
+		0BE369A9DA4DFD560936D641E7E6F075 /* ZPJSONDocumentReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONDocumentReader.m; sourceTree = "<group>"; };
+		0D76E91C319EEA6185A0270F65701A59 /* ZPLineNumberCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPLineNumberCell.m; sourceTree = "<group>"; };
+		0DFE59039417700EF786DF74ADF596EF /* ZPJSONDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONDecorator.m; sourceTree = "<group>"; };
+		0E24F6CF231FE4D16C95D804435C3E38 /* ZPJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONParser.h; sourceTree = "<group>"; };
+		0F5FABC86BF086342349749480869E0D /* NSString+ZPJsonValidURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZPJsonValidURL.m"; sourceTree = "<group>"; };
+		0FA1CDE20B0F62EA7F9C8EE6A4632830 /* ZPJSONHighlightColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONHighlightColor.m; sourceTree = "<group>"; };
+		12AB0EA9D30768E848E7A6E1C3CE9CB8 /* NSData+ZPJSONEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZPJSONEncode.m"; sourceTree = "<group>"; };
+		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1ABBE9376A1A8C7FD8EAAC6ED85371BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1C92D868A097B69C3B175EFEEF36101A /* ZPJSONConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONConfig.m; sourceTree = "<group>"; };
+		1EB5678D6C01F7EBF9B4A3DC19740405 /* ZPJsonPreview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPJsonPreview-dummy.m"; sourceTree = "<group>"; };
+		20A3FF9C6830799ED5F46355078E970B /* Pods-ZPJsonPreview_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPJsonPreview_Tests-dummy.m"; sourceTree = "<group>"; };
+		21A2F1510BB9BD5F2A5521612DF0FB15 /* ZPJSONException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONException.m; sourceTree = "<group>"; };
+		22C1F1C0F966BB6FF0892407B98C8442 /* ZPJSONSlice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONSlice.m; sourceTree = "<group>"; };
+		2599290BCCF41BCA8952133DC80B86F1 /* NSMutableDictionary+ZPJsonSort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZPJsonSort.m"; sourceTree = "<group>"; };
+		2A7ACE86E11820EF38C71EEBEC340E31 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		322490C9CDAF8EDBE352722AFB94D294 /* Pods-ZPJsonPreview_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-ZPJsonPreview_Example"; path = "libPods-ZPJsonPreview_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D984EDD0A01609841C69993CE276B7 /* ZPJSONTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONTextView.m; sourceTree = "<group>"; };
+		3883379384AEF6D1B35621FD674F8736 /* Pods-ZPJsonPreview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPJsonPreview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		38EAC0530D080AD46D6C94CEF094E22D /* ZPLineNumberTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPLineNumberTableView.m; sourceTree = "<group>"; };
+		3C8DFBAAB4399236B7218F1A757A5B05 /* NSString+ZPJSONObjectKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ZPJSONObjectKey.h"; sourceTree = "<group>"; };
+		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		4171201CF1BD9E66F4BFDF14A548470D /* NSDictionary+ZPJsonSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZPJsonSort.h"; sourceTree = "<group>"; };
+		4964EEFBA80E32A6A3082BF93B7DEBEB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		4BC5A9910089542721D069303524ADDF /* Pods-ZPJsonPreview_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPJsonPreview_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D2A69EA7E38BB63A9E41F5E031743B6 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		4EB4AE2AD975FDC35A8FF1CC029E4108 /* Pods-ZPJsonPreview_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPJsonPreview_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5260309E714FA1E57EB29D47F946B967 /* zp_json_Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = zp_json_Images.xcassets; path = ZPJsonPreview/Assets/zp_json_Images.xcassets; sourceTree = "<group>"; };
+		572BDFE21DD7182E1317E9D27C5117C5 /* ZPJSONDocumentReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONDocumentReader.h; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = FBSnapshotTestCase; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BD602AF198CC16AE6A68130B4E304F /* ZPJsonPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJsonPreview.h; sourceTree = "<group>"; };
+		67179ED4444D9187B1E225F9F0F24CE9 /* ZPJsonPreview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPJsonPreview.release.xcconfig; sourceTree = "<group>"; };
+		6A54B8760A87617A245C76F46500A779 /* ZPJSONValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONValue.h; sourceTree = "<group>"; };
+		720622F711D513075B3C6DA85B43A77D /* Pods-ZPJsonPreview_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPJsonPreview_Example-dummy.m"; sourceTree = "<group>"; };
+		748BA343F55637F43626E9E481F89B67 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		765092CB0831CD8C787D70171BAE55E0 /* Pods-ZPJsonPreview_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPJsonPreview_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76A45461F174AD5383E5F571293C0A49 /* Pods-ZPJsonPreview_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPJsonPreview_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		78446EA2EE3558B1B96DFA6EB30034A5 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		7B389DBE5A01FA03B6BBF37732D7D115 /* ZPLineNumberTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPLineNumberTableView.h; sourceTree = "<group>"; };
+		7D8E20DA768E10D33BFB17FA52E4DFFF /* ZPJSONError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONError.m; sourceTree = "<group>"; };
+		7EB09AD007EC44FC44693C5105491508 /* ZPJSONConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONConfig.h; sourceTree = "<group>"; };
+		82721B7EEC0B74FDF8C9D558C46006CC /* ZPJSONTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONTextView.h; sourceTree = "<group>"; };
+		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		8930C1E38D28ACFC84856C899D37D3EF /* ZPJSONHighlightColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONHighlightColor.h; sourceTree = "<group>"; };
+		8BFB64D546D0137A64565876B4D59292 /* Pods-ZPJsonPreview_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPJsonPreview_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EC9B81AC4063D1EBE04ADB01A5F4E1F /* NSData+ZPJSONEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+ZPJSONEncode.h"; sourceTree = "<group>"; };
+		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		90D557D992E48F2C9C00D5AC8757AAEE /* Pods-ZPJsonPreview_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPJsonPreview_Example-resources.sh"; sourceTree = "<group>"; };
+		91AC65FE12C7E309803A9BFE48F580AA /* Pods-ZPJsonPreview_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPJsonPreview_Tests.modulemap"; sourceTree = "<group>"; };
+		95D339A01B69B724BB7814F4F869D526 /* ZPJSONSlice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONSlice.h; sourceTree = "<group>"; };
+		9ADB5DF07CB2B4EC878281E27B7C12F6 /* ZPJsonPreview */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZPJsonPreview; path = libZPJsonPreview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		B2992692444A187DA2CD9FA4F873204E /* ZPJsonPreview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPJsonPreview.debug.xcconfig; sourceTree = "<group>"; };
+		B2A5842B8CB3637A3F120AC675EB1889 /* Pods-ZPJsonPreview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPJsonPreview_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B50344CEF22F2518ED829D98B2006869 /* NSMutableDictionary+ZPJsonSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ZPJsonSort.h"; sourceTree = "<group>"; };
+		C4B7E064207B4D4C1ACC4CE52815DE6B /* ZPJsonPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJsonPreview.m; sourceTree = "<group>"; };
+		C6B44E46541AE7EC0412C63CA2FE896F /* ResourceBundle-ZPJsonPreview-ZPJsonPreview-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZPJsonPreview-ZPJsonPreview-Info.plist"; sourceTree = "<group>"; };
+		C9CD662427AAA2F5C0851CCF513711B6 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		D17952A0296C8B2F16F62C72AE43F972 /* Pods-ZPJsonPreview_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-ZPJsonPreview_Tests"; path = "libPods-ZPJsonPreview_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19C25B6C10BA4C279C75E2B53366D34 /* ZPJSONError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONError.h; sourceTree = "<group>"; };
+		D230662CEB6A55E9C4BE93CFBDBC808D /* Pods-ZPJsonPreview_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPJsonPreview_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		D98EA30CF6022AC4AFB4F028CF63CC9E /* ZPJsonPreview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPJsonPreview-prefix.pch"; sourceTree = "<group>"; };
+		DA3B45EF99A403D7755F391288753D9F /* ZPJSONValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONValue.m; sourceTree = "<group>"; };
+		DBC5E70D45878B2B6D5FEDBCCD933A2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		DEA13163EFC38AEB4ED5203C05EFE32B /* ZPJSONException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONException.h; sourceTree = "<group>"; };
+		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E36E36F1ED62E1794094054A701B841E /* ZPJSONHighlightStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONHighlightStyle.h; sourceTree = "<group>"; };
+		E5B668481D5DCD491238E382FCCEF59F /* NSString+ZPJsonValidURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ZPJsonValidURL.h"; sourceTree = "<group>"; };
+		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		EF61E291F0B48B0B88EBACFFFF9C0AFF /* ZPJSONHighlightStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONHighlightStyle.m; sourceTree = "<group>"; };
+		F04A0DCE90D57A6849A07490E485FA94 /* Pods-ZPJsonPreview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPJsonPreview_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F0A20F94D180E93CF643F124781F1BD1 /* ZPJsonPreview.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZPJsonPreview.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F36F383F1BD6C053CC37B11AADCE9B45 /* ZPJSONDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZPJSONDecorator.h; sourceTree = "<group>"; };
+		F545B9AE4D7FB772039E4CD4F035E0AD /* ZPJSONParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZPJSONParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		09DD72250C021B61189823544682EEB9 /* Frameworks */ = {
+		21938F07D67E7E35EF06402315B1EA95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94954EA39887C0B189C26CB7E123208E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A68C9C1F81C8785FC5B01028DB2727A2 /* Frameworks */ = {
+		289CA63B63F5FD348C16DC50BDD67D12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC508110178D4E0CBDBE081A34EC017A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
+		617CA2A7F951EB7705356BDCC7A26AF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
-				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
-				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
-				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE97D4E405F7468B501E64F4AE3A4180 /* Frameworks */ = {
+		76EA02C3C124F0B5FB17FACBA3056304 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8028496D86859F17663A52007AE6259D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49223A5755E21E041CE998C7A7AD775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A25E3AEF1DFDF90FE34A3FDB8CD2615 /* Utility */ = {
+		0043616A77CB9DFD81F70E659CFD852E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E20ED6A7A64C1F700E725F5F674BAAA4 /* ZPJSONConfig.h */,
-				CCCAB2F107AE43C366E6DBEFFEE7B59A /* ZPJSONConfig.m */,
-				A15E7A68B5C94AACD5E66E814A1B28A2 /* ZPJSONError.h */,
-				1B452C83C7D80AACB5C1A74A8668D551 /* ZPJSONError.m */,
-				6D9FB6865C718F52DD986A5761BE7E78 /* ZPJSONException.h */,
-				6C4287D42F48AD4FD0B06E5096146C20 /* ZPJSONException.m */,
-				287FE1B91E2CEFC3D8D1E50E50C59729 /* ZPJSONHighlightColor.h */,
-				609C069D458F20E332012AE04B44B662 /* ZPJSONHighlightColor.m */,
-				1E3809AC617569F0D669A680B130DB4D /* ZPJSONHighlightStyle.h */,
-				51C5327246FC8B578019C7CE092B4E36 /* ZPJSONHighlightStyle.m */,
-				74D44F7DC2F89A2F9BA6C7098571B169 /* ZPJSONSlice.h */,
-				761A9091E685350693737C10EBDECAFC /* ZPJSONSlice.m */,
-				E1EC2D1F5D5BFAE8689367D81C6EA304 /* ZPJSONValue.h */,
-				8DAD4B2CFD5C212EE211538F37554528 /* ZPJSONValue.m */,
-			);
-			name = Utility;
-			path = ZPJsonPreview/Classes/Utility;
-			sourceTree = "<group>";
-		};
-		3CE7BC57833815ED1B6B9260D897C91E /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				39C1DD674A87B2CBAB746541B520237B /* NSData+ZPJSONEncode.h */,
-				FF563BF68570F485C92DDF70778C3333 /* NSData+ZPJSONEncode.m */,
-				4BCAB466FD963EE62B061297A5B572E3 /* NSDictionary+ZPJsonSort.h */,
-				CDF88C6004C997E6916AAD71C83A2931 /* NSDictionary+ZPJsonSort.m */,
-				35AC1A0CF97C46F56BFECBC20B227B89 /* NSMutableDictionary+ZPJsonSort.h */,
-				D9D98FFE4431D441443B65F581521A05 /* NSMutableDictionary+ZPJsonSort.m */,
-				471598B6D8627C79B611A68631BF3E04 /* NSString+ZPJSONObjectKey.h */,
-				4E3A9F65EB718454068E81F49E474CD2 /* NSString+ZPJSONObjectKey.m */,
-				7F7932BC0C176F0902EB907072865C57 /* NSString+ZPJsonValidURL.h */,
-				66EBEE4895E773F42FA80432A0617638 /* NSString+ZPJsonValidURL.m */,
-			);
-			name = Category;
-			path = ZPJsonPreview/Classes/Category;
-			sourceTree = "<group>";
-		};
-		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
-				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
-				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
-				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
-				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
-				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
-				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
-				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
-				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
-				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
-				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
-				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
-				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
-				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		59833C3644B9CF70E14DC7D12873A782 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7B78BE81844E12394DFCBFE91D33E6A0 /* Pods-ZPJsonPreview_Example */,
-				6B3969158BC71699941EBC61F79989C8 /* Pods-ZPJsonPreview_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6B3969158BC71699941EBC61F79989C8 /* Pods-ZPJsonPreview_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B35920CB25E2809DE0285E839FCBB262 /* Pods-ZPJsonPreview_Tests.modulemap */,
-				0EF5CD876B9AF762158A7A264E26488E /* Pods-ZPJsonPreview_Tests-acknowledgements.markdown */,
-				FFD3B04879325F03E67E254BC0539E5C /* Pods-ZPJsonPreview_Tests-acknowledgements.plist */,
-				2022B7CF8CD33E8D4D4CACCDA4B4BA53 /* Pods-ZPJsonPreview_Tests-dummy.m */,
-				3B116D367C7FE90EFE5999A70AFB210A /* Pods-ZPJsonPreview_Tests-frameworks.sh */,
-				F3695852000CCD448B643537C096DEC5 /* Pods-ZPJsonPreview_Tests-Info.plist */,
-				35E2FB3D5583D386BACD29E6ED823EA2 /* Pods-ZPJsonPreview_Tests-umbrella.h */,
-				DFBBCE6D1D07355CB28C2357E196A266 /* Pods-ZPJsonPreview_Tests.debug.xcconfig */,
-				A75A29BB146C924A0170955F0EAAD3AA /* Pods-ZPJsonPreview_Tests.release.xcconfig */,
-			);
-			name = "Pods-ZPJsonPreview_Tests";
-			path = "Target Support Files/Pods-ZPJsonPreview_Tests";
-			sourceTree = "<group>";
-		};
-		6D40131C6FDC83F3192A1B745EB9F0E3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E4EDDF0A9B356E0557043D95646E04EC /* LICENSE */,
-				E42CA0861E638E392290801A78ED1C0A /* README.md */,
-				C2E1F7A1E67A426E683D131295AD6513 /* ZPJsonPreview.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7B78BE81844E12394DFCBFE91D33E6A0 /* Pods-ZPJsonPreview_Example */ = {
-			isa = PBXGroup;
-			children = (
-				A32C90316814E9DF5B8085E826C59410 /* Pods-ZPJsonPreview_Example.modulemap */,
-				3233504D7C1785067CD0F1D94FD76083 /* Pods-ZPJsonPreview_Example-acknowledgements.markdown */,
-				F4056887BF2C3D8BE82B8F7F0D067B8E /* Pods-ZPJsonPreview_Example-acknowledgements.plist */,
-				EBA472B9144B0949DFBB80E8459755F5 /* Pods-ZPJsonPreview_Example-dummy.m */,
-				97469E488B6DCE5DEF3F71198BD6FFF0 /* Pods-ZPJsonPreview_Example-frameworks.sh */,
-				33E57854577A72E647A91C4213942010 /* Pods-ZPJsonPreview_Example-Info.plist */,
-				94556E5054ED078DD4673AD80D289318 /* Pods-ZPJsonPreview_Example-umbrella.h */,
-				A370B44E747EB7C56CF08C5B07577224 /* Pods-ZPJsonPreview_Example.debug.xcconfig */,
-				889DE5A1FCBC145E342432A18A027369 /* Pods-ZPJsonPreview_Example.release.xcconfig */,
-			);
-			name = "Pods-ZPJsonPreview_Example";
-			path = "Target Support Files/Pods-ZPJsonPreview_Example";
-			sourceTree = "<group>";
-		};
-		7D25D32C458A2264E9FA1B3474BE02EA /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				175B528211AF6F7E28F432987A4DE903 /* ZPJSONDecorator.h */,
-				A56373223CD3899253B15DB444EBD357 /* ZPJSONDecorator.m */,
-				09FCBF921783532BE619BF4AB39D2999 /* ZPJSONDocumentReader.h */,
-				21E139DCD54BA21B1E1C2CE99FF70556 /* ZPJSONDocumentReader.m */,
-				DFD5A4FE7BBB83439755C964AA80B579 /* ZPJSONParser.h */,
-				F8F2B549C34E886C514430FFD160E268 /* ZPJSONParser.m */,
-			);
-			name = Model;
-			path = ZPJsonPreview/Classes/Model;
-			sourceTree = "<group>";
-		};
-		8AC21426CBD140AEB5242B92E7F0EF50 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				54FFC4EA5235903176952625CEA64294 /* ZPJsonPreview.modulemap */,
-				32ABE6922C661FEA4ACAC906B7596711 /* ZPJsonPreview-dummy.m */,
-				951045447F34B13231DA37D74749A57B /* ZPJsonPreview-Info.plist */,
-				403F0866763FF9EDE2D1EB7A27632FE6 /* ZPJsonPreview-prefix.pch */,
-				CEF59C210B30D65CE0F3BEC2847961AE /* ZPJsonPreview-umbrella.h */,
-				7E7F00CE97010461D7C3F53DE13EB5C5 /* ZPJsonPreview.debug.xcconfig */,
-				C79C368B3A16B63F33D06056F5CA565B /* ZPJsonPreview.release.xcconfig */,
+				C6B44E46541AE7EC0412C63CA2FE896F /* ResourceBundle-ZPJsonPreview-ZPJsonPreview-Info.plist */,
+				1EB5678D6C01F7EBF9B4A3DC19740405 /* ZPJsonPreview-dummy.m */,
+				D98EA30CF6022AC4AFB4F028CF63CC9E /* ZPJsonPreview-prefix.pch */,
+				B2992692444A187DA2CD9FA4F873204E /* ZPJsonPreview.debug.xcconfig */,
+				67179ED4444D9187B1E225F9F0F24CE9 /* ZPJsonPreview.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ZPJsonPreview";
 			sourceTree = "<group>";
 		};
-		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+		0F6E515F5D5C2F665D79B117CE929170 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				322490C9CDAF8EDBE352722AFB94D294 /* Pods-ZPJsonPreview_Example */,
+				D17952A0296C8B2F16F62C72AE43F972 /* Pods-ZPJsonPreview_Tests */,
+				9ADB5DF07CB2B4EC878281E27B7C12F6 /* ZPJsonPreview */,
+				0B9EFA6A190E87E69F05CA28BDD7FFA4 /* ZPJsonPreview.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A8060C21EA45F9C21B6036BDF9D4A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53B50161DE15FA7D17590ED19BCD4990 /* Pods-ZPJsonPreview_Example */,
+				52F40E8E7417730EE1D80EE5F0C5E250 /* Pods-ZPJsonPreview_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52F40E8E7417730EE1D80EE5F0C5E250 /* Pods-ZPJsonPreview_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				91AC65FE12C7E309803A9BFE48F580AA /* Pods-ZPJsonPreview_Tests.modulemap */,
+				4BC5A9910089542721D069303524ADDF /* Pods-ZPJsonPreview_Tests-acknowledgements.markdown */,
+				765092CB0831CD8C787D70171BAE55E0 /* Pods-ZPJsonPreview_Tests-acknowledgements.plist */,
+				20A3FF9C6830799ED5F46355078E970B /* Pods-ZPJsonPreview_Tests-dummy.m */,
+				4EB4AE2AD975FDC35A8FF1CC029E4108 /* Pods-ZPJsonPreview_Tests-umbrella.h */,
+				3883379384AEF6D1B35621FD674F8736 /* Pods-ZPJsonPreview_Tests.debug.xcconfig */,
+				B2A5842B8CB3637A3F120AC675EB1889 /* Pods-ZPJsonPreview_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZPJsonPreview_Tests";
+			path = "Target Support Files/Pods-ZPJsonPreview_Tests";
+			sourceTree = "<group>";
+		};
+		53B50161DE15FA7D17590ED19BCD4990 /* Pods-ZPJsonPreview_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D230662CEB6A55E9C4BE93CFBDBC808D /* Pods-ZPJsonPreview_Example-acknowledgements.markdown */,
+				8BFB64D546D0137A64565876B4D59292 /* Pods-ZPJsonPreview_Example-acknowledgements.plist */,
+				720622F711D513075B3C6DA85B43A77D /* Pods-ZPJsonPreview_Example-dummy.m */,
+				90D557D992E48F2C9C00D5AC8757AAEE /* Pods-ZPJsonPreview_Example-resources.sh */,
+				76A45461F174AD5383E5F571293C0A49 /* Pods-ZPJsonPreview_Example.debug.xcconfig */,
+				F04A0DCE90D57A6849A07490E485FA94 /* Pods-ZPJsonPreview_Example.release.xcconfig */,
+			);
+			name = "Pods-ZPJsonPreview_Example";
+			path = "Target Support Files/Pods-ZPJsonPreview_Example";
+			sourceTree = "<group>";
+		};
+		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		98F5F64BB3670F06EAA296DF31DE6EE0 /* View */ = {
+		8C6DF331C27E2A75E58F9550C1F630CF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				70562C70970F603FAAAE7E903EBAFFCB /* ZPJsonPreview.h */,
-				C9A96FAF40BB823CD9AB8F653B2AF40F /* ZPJsonPreview.m */,
-				678C67E3188B5BFD00479D1D751D2092 /* ZPJSONTextView.h */,
-				97E25A9431829EA65CC144AA1E523C16 /* ZPJSONTextView.m */,
-				A4DE133531682707E12EF4CE050A4A0C /* ZPLineNumberCell.h */,
-				FC018F2B10955CF8167915C55936C62D /* ZPLineNumberCell.m */,
-				8227D201C66CD0EE3AEB74383C333B39 /* ZPLineNumberTableView.h */,
-				77847E9600039DB3FF63281176485ADD /* ZPLineNumberTableView.m */,
+				1ABBE9376A1A8C7FD8EAAC6ED85371BD /* LICENSE */,
+				DBC5E70D45878B2B6D5FEDBCCD933A2A /* README.md */,
+				F0A20F94D180E93CF643F124781F1BD1 /* ZPJsonPreview.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8E34C5AA2ECAE8F2F51975C415EC90B0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8EC9B81AC4063D1EBE04ADB01A5F4E1F /* NSData+ZPJSONEncode.h */,
+				12AB0EA9D30768E848E7A6E1C3CE9CB8 /* NSData+ZPJSONEncode.m */,
+				4171201CF1BD9E66F4BFDF14A548470D /* NSDictionary+ZPJsonSort.h */,
+				094A6E89383C7AC777658AB24FDB71C4 /* NSDictionary+ZPJsonSort.m */,
+				B50344CEF22F2518ED829D98B2006869 /* NSMutableDictionary+ZPJsonSort.h */,
+				2599290BCCF41BCA8952133DC80B86F1 /* NSMutableDictionary+ZPJsonSort.m */,
+				3C8DFBAAB4399236B7218F1A757A5B05 /* NSString+ZPJSONObjectKey.h */,
+				0BAC0CAB17211E224552EDF885B14E2E /* NSString+ZPJSONObjectKey.m */,
+				E5B668481D5DCD491238E382FCCEF59F /* NSString+ZPJsonValidURL.h */,
+				0F5FABC86BF086342349749480869E0D /* NSString+ZPJsonValidURL.m */,
+			);
+			name = Category;
+			path = ZPJsonPreview/Classes/Category;
+			sourceTree = "<group>";
+		};
+		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
+				C1F33F420985E14CD0D7BDA9573F3F23 /* Support Files */,
+				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
+				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
+				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
+				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
+				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
+				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
+				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
+				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
+				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
+				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
+				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
+				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
+				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
+				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AD3AA5B8C6895C47CF2B96D552EFA39C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61BD602AF198CC16AE6A68130B4E304F /* ZPJsonPreview.h */,
+				C4B7E064207B4D4C1ACC4CE52815DE6B /* ZPJsonPreview.m */,
+				82721B7EEC0B74FDF8C9D558C46006CC /* ZPJSONTextView.h */,
+				36D984EDD0A01609841C69993CE276B7 /* ZPJSONTextView.m */,
+				0B544DD1E681C3BA47D2598C5FD176B2 /* ZPLineNumberCell.h */,
+				0D76E91C319EEA6185A0270F65701A59 /* ZPLineNumberCell.m */,
+				7B389DBE5A01FA03B6BBF37732D7D115 /* ZPLineNumberTableView.h */,
+				38EAC0530D080AD46D6C94CEF094E22D /* ZPLineNumberTableView.m */,
 			);
 			name = View;
 			path = ZPJsonPreview/Classes/View;
 			sourceTree = "<group>";
 		};
-		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+		B0F858F177ACA92FD9EB11E2E8AF83AC /* ZPJsonPreview */ = {
 			isa = PBXGroup;
 			children = (
-				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
-				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
-				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
-				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
-				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
-				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
-				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				4BA2479549DD918290454B1CDCD0B92B /* Core */,
-				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
-				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
-			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		BD7F9346FF2C3E0EDCE6793C3AE9FF1D /* ZPJsonPreview */ = {
-			isa = PBXGroup;
-			children = (
-				175C8903A4707772C2C4F9858189FEF0 /* Images.xcassets */,
-				3CE7BC57833815ED1B6B9260D897C91E /* Category */,
-				7D25D32C458A2264E9FA1B3474BE02EA /* Model */,
-				6D40131C6FDC83F3192A1B745EB9F0E3 /* Pod */,
-				8AC21426CBD140AEB5242B92E7F0EF50 /* Support Files */,
-				2A25E3AEF1DFDF90FE34A3FDB8CD2615 /* Utility */,
-				98F5F64BB3670F06EAA296DF31DE6EE0 /* View */,
+				5260309E714FA1E57EB29D47F946B967 /* zp_json_Images.xcassets */,
+				8E34C5AA2ECAE8F2F51975C415EC90B0 /* Category */,
+				B96C7EBFEBFC6084257EE46EFD3D3EA6 /* Model */,
+				8C6DF331C27E2A75E58F9550C1F630CF /* Pod */,
+				0043616A77CB9DFD81F70E659CFD852E /* Support Files */,
+				BC9E4A4E92D30A13BD6C75DB595C64BA /* Utility */,
+				AD3AA5B8C6895C47CF2B96D552EFA39C /* View */,
 			);
 			name = ZPJsonPreview;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		B96C7EBFEBFC6084257EE46EFD3D3EA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F36F383F1BD6C053CC37B11AADCE9B45 /* ZPJSONDecorator.h */,
+				0DFE59039417700EF786DF74ADF596EF /* ZPJSONDecorator.m */,
+				572BDFE21DD7182E1317E9D27C5117C5 /* ZPJSONDocumentReader.h */,
+				0BE369A9DA4DFD560936D641E7E6F075 /* ZPJSONDocumentReader.m */,
+				0E24F6CF231FE4D16C95D804435C3E38 /* ZPJSONParser.h */,
+				F545B9AE4D7FB772039E4CD4F035E0AD /* ZPJSONParser.m */,
+			);
+			name = Model;
+			path = ZPJsonPreview/Classes/Model;
+			sourceTree = "<group>";
+		};
+		BC9E4A4E92D30A13BD6C75DB595C64BA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7EB09AD007EC44FC44693C5105491508 /* ZPJSONConfig.h */,
+				1C92D868A097B69C3B175EFEEF36101A /* ZPJSONConfig.m */,
+				D19C25B6C10BA4C279C75E2B53366D34 /* ZPJSONError.h */,
+				7D8E20DA768E10D33BFB17FA52E4DFFF /* ZPJSONError.m */,
+				DEA13163EFC38AEB4ED5203C05EFE32B /* ZPJSONException.h */,
+				21A2F1510BB9BD5F2A5521612DF0FB15 /* ZPJSONException.m */,
+				8930C1E38D28ACFC84856C899D37D3EF /* ZPJSONHighlightColor.h */,
+				0FA1CDE20B0F62EA7F9C8EE6A4632830 /* ZPJSONHighlightColor.m */,
+				E36E36F1ED62E1794094054A701B841E /* ZPJSONHighlightStyle.h */,
+				EF61E291F0B48B0B88EBACFFFF9C0AFF /* ZPJSONHighlightStyle.m */,
+				95D339A01B69B724BB7814F4F869D526 /* ZPJSONSlice.h */,
+				22C1F1C0F966BB6FF0892407B98C8442 /* ZPJSONSlice.m */,
+				6A54B8760A87617A245C76F46500A779 /* ZPJSONValue.h */,
+				DA3B45EF99A403D7755F391288753D9F /* ZPJSONValue.m */,
+			);
+			name = Utility;
+			path = ZPJsonPreview/Classes/Utility;
+			sourceTree = "<group>";
+		};
+		C1F33F420985E14CD0D7BDA9573F3F23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D2A69EA7E38BB63A9E41F5E031743B6 /* FBSnapshotTestCase.modulemap */,
+				78446EA2EE3558B1B96DFA6EB30034A5 /* FBSnapshotTestCase-dummy.m */,
+				748BA343F55637F43626E9E481F89B67 /* FBSnapshotTestCase-prefix.pch */,
+				4964EEFBA80E32A6A3082BF93B7DEBEB /* FBSnapshotTestCase-umbrella.h */,
+				C9CD662427AAA2F5C0851CCF513711B6 /* FBSnapshotTestCase.debug.xcconfig */,
+				2A7ACE86E11820EF38C71EEBEC340E31 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -463,109 +445,92 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D554AD51BC9A9BC877F6B13E68747E3B /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				E182B4B600B668AD19DF4EAC69F8B779 /* Products */,
-				59833C3644B9CF70E14DC7D12873A782 /* Targets Support Files */,
+				0F6E515F5D5C2F665D79B117CE929170 /* Products */,
+				11A8060C21EA45F9C21B6036BDF9D4A2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		D554AD51BC9A9BC877F6B13E68747E3B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD7F9346FF2C3E0EDCE6793C3AE9FF1D /* ZPJsonPreview */,
+				B0F858F177ACA92FD9EB11E2E8AF83AC /* ZPJsonPreview */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E182B4B600B668AD19DF4EAC69F8B779 /* Products */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
-				322490C9CDAF8EDBE352722AFB94D294 /* Pods-ZPJsonPreview_Example */,
-				D17952A0296C8B2F16F62C72AE43F972 /* Pods-ZPJsonPreview_Tests */,
-				9ADB5DF07CB2B4EC878281E27B7C12F6 /* ZPJsonPreview */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
-				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
-				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
-				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5DE966AE60AC926E06784077AA537197 /* Headers */ = {
+		54AD07A401EE0DD9387942F8F21C6587 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F2BB1737405F79BA3F8AF9CC1B2C599 /* Pods-ZPJsonPreview_Example-umbrella.h in Headers */,
+				0E90F94E321E652EF7CD04BFFC7E3678 /* NSData+ZPJSONEncode.h in Headers */,
+				5006EC5027602735C9A45AAF2F747A50 /* NSDictionary+ZPJsonSort.h in Headers */,
+				FBB4B5076D34AAA57D99A5044C1DABAD /* NSMutableDictionary+ZPJsonSort.h in Headers */,
+				3D11C9B18EA4B7C999E61AA5FA4FBD9E /* NSString+ZPJSONObjectKey.h in Headers */,
+				09F2781752938806F40799BC2CF1997A /* NSString+ZPJsonValidURL.h in Headers */,
+				CF343CCCB81D686192E54B2B738C4520 /* ZPJSONConfig.h in Headers */,
+				BF8B4EB4B7F54D618389C3E71CB6A414 /* ZPJSONDecorator.h in Headers */,
+				72BA19C8F330D08AF96F1CDB8FB0E367 /* ZPJSONDocumentReader.h in Headers */,
+				0812509E73BACE81F939E224E1A2FC77 /* ZPJSONError.h in Headers */,
+				D9E04FD74E10BA9A2B7175765FF5E5A1 /* ZPJSONException.h in Headers */,
+				29AB1518F0DA448AD3E7B7C00C3FE5C3 /* ZPJSONHighlightColor.h in Headers */,
+				75B07F7932DCF50D1D1972107BDE7234 /* ZPJSONHighlightStyle.h in Headers */,
+				5851A7FCD661012B894FD46B87720270 /* ZPJSONParser.h in Headers */,
+				1BF5C897DBA2C110B26B8C08806EE087 /* ZPJsonPreview.h in Headers */,
+				B4C793A0AEED7A227008E8DBDF56CBD5 /* ZPJSONSlice.h in Headers */,
+				A97D2450E7992211E167BF96FF0AF9F0 /* ZPJSONTextView.h in Headers */,
+				2995044D59DA25986CFC2FEEDEDA2859 /* ZPJSONValue.h in Headers */,
+				E001319B3D5050D52815FA3A23D1A40E /* ZPLineNumberCell.h in Headers */,
+				D4B72F8007930215A0841FA6A475063B /* ZPLineNumberTableView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
+		74BBF35D979DEA800E8EC4F3417F9539 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
-				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
-				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
-				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
-				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
-				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
-				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC841AD9EC2021F52EE07333B19E7336 /* Headers */ = {
+		981A54925F676EA194E8552B9D1039AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22F9D653E3B069E68C042A23FBEAA880 /* NSData+ZPJSONEncode.h in Headers */,
-				F6F75373FF8C80E60A0C12AE7B663BB8 /* NSDictionary+ZPJsonSort.h in Headers */,
-				172574092F6C38EE36195B8C9BA6EE6F /* NSMutableDictionary+ZPJsonSort.h in Headers */,
-				72673A9894084051B84EFF5C38B74642 /* NSString+ZPJSONObjectKey.h in Headers */,
-				1E3D5A1378E830F74CB138737CC2FFB4 /* NSString+ZPJsonValidURL.h in Headers */,
-				579A86F96B5C115967C97EDD54DCC002 /* ZPJSONConfig.h in Headers */,
-				2F77F7CA66FC17B4AFD835AC30FDFE53 /* ZPJSONDecorator.h in Headers */,
-				3CBB981A902462267139F9A33E34B457 /* ZPJSONDocumentReader.h in Headers */,
-				31A8D9EDB6772D66403B3127853E76E0 /* ZPJSONError.h in Headers */,
-				025DB2B20D508DD5AC26ED2E5EAC4A35 /* ZPJSONException.h in Headers */,
-				61A76FC917F82B8DDA822EE02E631853 /* ZPJSONHighlightColor.h in Headers */,
-				44E9F6F1F1CE2F8337A1271080C64D84 /* ZPJSONHighlightStyle.h in Headers */,
-				F339077605A466EA4421CED25190C198 /* ZPJSONParser.h in Headers */,
-				6E0EEEA8DC746D5CC4A414DCCA269D60 /* ZPJsonPreview.h in Headers */,
-				2F88E338CF9F62FA20961C7D0E37F0D9 /* ZPJsonPreview-umbrella.h in Headers */,
-				C65C1C3EEE6B010A28819B9D759EC5F3 /* ZPJSONSlice.h in Headers */,
-				46D0188C396D0B7AF9004B57E1124FA3 /* ZPJSONTextView.h in Headers */,
-				AF25302B6BFB303E8AB57BB1892F9D18 /* ZPJSONValue.h in Headers */,
-				F8C6C558358A4515B794507A34D44937 /* ZPLineNumberCell.h in Headers */,
-				A438A4520C621200629E0CF9F0F8F4E5 /* ZPLineNumberTableView.h in Headers */,
+				3833637A113A9E6F7ABF5D2C7ABEF1D1 /* FBSnapshotTestCase.h in Headers */,
+				65C52717D8CE3882252C5EC3CE7CE91F /* FBSnapshotTestCase-umbrella.h in Headers */,
+				25B0BC0624941FD5E679F0C58F985675 /* FBSnapshotTestCasePlatform.h in Headers */,
+				E795F76E748A5BB7F41FC301251FD5D8 /* FBSnapshotTestController.h in Headers */,
+				30172234B6D0EC29791E121E066B69FB /* UIApplication+StrictKeyWindow.h in Headers */,
+				6B4C91F533FB395C85D48F3AF27832BB /* UIImage+Compare.h in Headers */,
+				282651B90EFBAF8757AFF902F6A57973 /* UIImage+Diff.h in Headers */,
+				93A1B55D1175A8B7DEED7B1C31C33FEE /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECBEB4759C22F7CD6166C0396FF9D036 /* Headers */ = {
+		F2E777FCB6E8264DD5D9D7B307A0DCF7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B11E0329F1D1988C323EB0832ABCF9B0 /* Pods-ZPJsonPreview_Tests-umbrella.h in Headers */,
+				DE2883427AEB875600FFDE0B0CAC3B13 /* Pods-ZPJsonPreview_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,49 +539,48 @@
 /* Begin PBXNativeTarget section */
 		15F3BF726995543FE9A14665EB26AE05 /* ZPJsonPreview */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11BE80D723CDBBB4D9F4D5FF16D0C112 /* Build configuration list for PBXNativeTarget "ZPJsonPreview" */;
+			buildConfigurationList = 8AA8F55687C797672F992D77524A8F08 /* Build configuration list for PBXNativeTarget "ZPJsonPreview" */;
 			buildPhases = (
-				DC841AD9EC2021F52EE07333B19E7336 /* Headers */,
-				27C5D3E34C67E779E7FFA7965297F0CA /* Sources */,
-				EE97D4E405F7468B501E64F4AE3A4180 /* Frameworks */,
-				5F2897EB4C8755E82B1125A227421CAC /* Resources */,
+				54AD07A401EE0DD9387942F8F21C6587 /* Headers */,
+				3887FB5D6ECF88BF92EFB6010CE2F071 /* Sources */,
+				76EA02C3C124F0B5FB17FACBA3056304 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D6CC07C2BED58E0A64DD97A8CF6BD61D /* PBXTargetDependency */,
 			);
 			name = ZPJsonPreview;
 			productName = ZPJsonPreview;
 			productReference = 9ADB5DF07CB2B4EC878281E27B7C12F6 /* ZPJsonPreview */;
-			productType = "com.apple.product-type.framework";
+			productType = "com.apple.product-type.library.static";
 		};
 		5122C4ABC61DEC123D26BC67F1A21544 /* Pods-ZPJsonPreview_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5BF73425F867CE88A6A0959784D9EE3 /* Build configuration list for PBXNativeTarget "Pods-ZPJsonPreview_Example" */;
+			buildConfigurationList = 3EBBF279E84CCFC0BA42E3B25BCE301D /* Build configuration list for PBXNativeTarget "Pods-ZPJsonPreview_Example" */;
 			buildPhases = (
-				5DE966AE60AC926E06784077AA537197 /* Headers */,
-				A642E7831B3E72C228FCD62961B795A6 /* Sources */,
-				09DD72250C021B61189823544682EEB9 /* Frameworks */,
-				ECD53093E7A9A1471BB6D1115313E82C /* Resources */,
+				74BBF35D979DEA800E8EC4F3417F9539 /* Headers */,
+				556ADF78A119D642126403928E874914 /* Sources */,
+				617CA2A7F951EB7705356BDCC7A26AF6 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BC164190864313167A5964C7306DE1CF /* PBXTargetDependency */,
+				A500B5CC55679987D27A0BB934941202 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZPJsonPreview_Example";
-			productName = Pods_ZPJsonPreview_Example;
+			productName = "Pods-ZPJsonPreview_Example";
 			productReference = 322490C9CDAF8EDBE352722AFB94D294 /* Pods-ZPJsonPreview_Example */;
-			productType = "com.apple.product-type.framework";
+			productType = "com.apple.product-type.library.static";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = BCF63EF3B50935083E54F266A5274D60 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
 			buildPhases = (
-				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
-				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
-				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
-				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
+				981A54925F676EA194E8552B9D1039AA /* Headers */,
+				2C0E1C3AC9E68073E49174ED18561783 /* Sources */,
+				21938F07D67E7E35EF06402315B1EA95 /* Frameworks */,
+				E9EA9F2689CAC29DAD777907920EBD2B /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -625,27 +589,43 @@
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
 			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
-			productType = "com.apple.product-type.framework";
+			productType = "com.apple.product-type.library.static";
 		};
-		CDF7A6E5E1EB4C45932BA2B3B702CA10 /* Pods-ZPJsonPreview_Tests */ = {
+		C5AE069303BA26E3E0F8142CFE5BFEF9 /* ZPJsonPreview-ZPJsonPreview */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A8DE3320D045F76B7BD6D4FE926271A /* Build configuration list for PBXNativeTarget "Pods-ZPJsonPreview_Tests" */;
+			buildConfigurationList = 6E974BEF5EA6FA91BC6A7B328426EA73 /* Build configuration list for PBXNativeTarget "ZPJsonPreview-ZPJsonPreview" */;
 			buildPhases = (
-				ECBEB4759C22F7CD6166C0396FF9D036 /* Headers */,
-				124E168A9C3A82D75524787C873A8601 /* Sources */,
-				A68C9C1F81C8785FC5B01028DB2727A2 /* Frameworks */,
-				3BCA72DC132BA44C366D579A0FAFE6F5 /* Resources */,
+				07FF164570C1DC5339CCBEBB7E822A27 /* Sources */,
+				289CA63B63F5FD348C16DC50BDD67D12 /* Frameworks */,
+				C275C2214E7E14C5B6B7BAA0C0301B7D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B82284FDD63C7C65116EDD5FA5D205E9 /* PBXTargetDependency */,
-				5E6F8611ACB980E594CB185089E72618 /* PBXTargetDependency */,
+			);
+			name = "ZPJsonPreview-ZPJsonPreview";
+			productName = ZPJsonPreview;
+			productReference = 0B9EFA6A190E87E69F05CA28BDD7FFA4 /* ZPJsonPreview.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CDF7A6E5E1EB4C45932BA2B3B702CA10 /* Pods-ZPJsonPreview_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C371C1F9351423DF46811E8BA7FE2431 /* Build configuration list for PBXNativeTarget "Pods-ZPJsonPreview_Tests" */;
+			buildPhases = (
+				F2E777FCB6E8264DD5D9D7B307A0DCF7 /* Headers */,
+				041EC029F4AF6DC0C23C2F3B6CD8B8A4 /* Sources */,
+				C49223A5755E21E041CE998C7A7AD775 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7FFD59A56CBC1202AD5AF6DC6207F65 /* PBXTargetDependency */,
+				DB46F34F581B63824895F07008E9EFFB /* PBXTargetDependency */,
 			);
 			name = "Pods-ZPJsonPreview_Tests";
-			productName = Pods_ZPJsonPreview_Tests;
+			productName = "Pods-ZPJsonPreview_Tests";
 			productReference = D17952A0296C8B2F16F62C72AE43F972 /* Pods-ZPJsonPreview_Tests */;
-			productType = "com.apple.product-type.framework";
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -655,6 +635,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C5AE069303BA26E3E0F8142CFE5BFEF9 = {
+						DevelopmentTeam = RPRE3P3ZM5;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -665,7 +650,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E182B4B600B668AD19DF4EAC69F8B779 /* Products */;
+			productRefGroup = 0F6E515F5D5C2F665D79B117CE929170 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -673,253 +658,300 @@
 				5122C4ABC61DEC123D26BC67F1A21544 /* Pods-ZPJsonPreview_Example */,
 				CDF7A6E5E1EB4C45932BA2B3B702CA10 /* Pods-ZPJsonPreview_Tests */,
 				15F3BF726995543FE9A14665EB26AE05 /* ZPJsonPreview */,
+				C5AE069303BA26E3E0F8142CFE5BFEF9 /* ZPJsonPreview-ZPJsonPreview */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+		C275C2214E7E14C5B6B7BAA0C0301B7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BCA72DC132BA44C366D579A0FAFE6F5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F2897EB4C8755E82B1125A227421CAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59C61CEF59771727531E176EE3C96732 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECD53093E7A9A1471BB6D1115313E82C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D59605E34E1695742BED1ED8AF805473 /* zp_json_Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E9EA9F2689CAC29DAD777907920EBD2B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		124E168A9C3A82D75524787C873A8601 /* Sources */ = {
+		041EC029F4AF6DC0C23C2F3B6CD8B8A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AC66495D063B714C09944030406ADEA /* Pods-ZPJsonPreview_Tests-dummy.m in Sources */,
+				85A4B2EA37760D45A19578C46F8E5FC1 /* Pods-ZPJsonPreview_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27C5D3E34C67E779E7FFA7965297F0CA /* Sources */ = {
+		07FF164570C1DC5339CCBEBB7E822A27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E313813B159F45E79587C0AB1D12F96C /* NSData+ZPJSONEncode.m in Sources */,
-				43BA8B187D336301AF2AE60EB9A947EC /* NSDictionary+ZPJsonSort.m in Sources */,
-				33B50925CA44EB88F949BEA6D21B3286 /* NSMutableDictionary+ZPJsonSort.m in Sources */,
-				605D7FE934EE406804174F809C481B51 /* NSString+ZPJSONObjectKey.m in Sources */,
-				098302028B785A1DF2DA9E38C0593CE2 /* NSString+ZPJsonValidURL.m in Sources */,
-				A234F28C78B17A61E421C66F06E490EC /* ZPJSONConfig.m in Sources */,
-				77B9AEAB6CE339FE4AA81BDBEE02F392 /* ZPJSONDecorator.m in Sources */,
-				E3F3F1077BB5A64F6B8CC9F4A6E93F68 /* ZPJSONDocumentReader.m in Sources */,
-				8DA98F3890FFED3A174F6E50D3BE61D5 /* ZPJSONError.m in Sources */,
-				901FD140E03C3CC11CAAA06F4D31A4AE /* ZPJSONException.m in Sources */,
-				099C27923DB15B4052914CF73870ACB8 /* ZPJSONHighlightColor.m in Sources */,
-				51A8FD3E92D8C0BE5687525407AB6AB9 /* ZPJSONHighlightStyle.m in Sources */,
-				FA34405A17E9A2FE730B450624BDED5E /* ZPJSONParser.m in Sources */,
-				9B11CF73D3F13CE4BA2FB676735729CD /* ZPJsonPreview.m in Sources */,
-				99CF74251CA6298B1274D8118747028C /* ZPJsonPreview-dummy.m in Sources */,
-				7CFE5EE22916362FDA2552C6CE9141DD /* ZPJSONSlice.m in Sources */,
-				C34212D2FB9AEE659D9310DD6A48A57E /* ZPJSONTextView.m in Sources */,
-				DCF5BE09C70182A1B0B3F809449D0915 /* ZPJSONValue.m in Sources */,
-				8D85D45A6CBB80247E11676DD81C8F2E /* ZPLineNumberCell.m in Sources */,
-				F99C7EEC367E72615F667EC8EA9EA867 /* ZPLineNumberTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A642E7831B3E72C228FCD62961B795A6 /* Sources */ = {
+		2C0E1C3AC9E68073E49174ED18561783 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CEAD2BA5E5C7ECFBECCFD18268D380B /* Pods-ZPJsonPreview_Example-dummy.m in Sources */,
+				5781D3E94857A8180A902071463C691F /* FBSnapshotTestCase.m in Sources */,
+				DF267BC1AC339ACD6DC46DB3ED4CAF88 /* FBSnapshotTestCase-dummy.m in Sources */,
+				0E8879AAE01AFFC4943A85D8849C0A0C /* FBSnapshotTestCasePlatform.m in Sources */,
+				C6286B6129FF62A84FB5D6B1766BB043 /* FBSnapshotTestController.m in Sources */,
+				9D068B88E82E78602BED792FDE20CA42 /* SwiftSupport.swift in Sources */,
+				7F8034C1EED3F33F457E5D0ACAA324B9 /* UIApplication+StrictKeyWindow.m in Sources */,
+				CA88D15E8F34CA8584368DA2CA151303 /* UIImage+Compare.m in Sources */,
+				D1A7516D90128CE0371AE7118A0CFCC6 /* UIImage+Diff.m in Sources */,
+				63DD657C00AD8332E5454E5B2B9D2FB1 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
+		3887FB5D6ECF88BF92EFB6010CE2F071 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
-				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
-				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
-				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
-				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
-				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
-				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
-				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
-				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
+				2F9CB75308942E41D84A3318CAAE0C11 /* NSData+ZPJSONEncode.m in Sources */,
+				C6009F2355CA5CC3E87C4F41AE939705 /* NSDictionary+ZPJsonSort.m in Sources */,
+				12783BCF064E4BDD888A80031E073ED8 /* NSMutableDictionary+ZPJsonSort.m in Sources */,
+				3B06CED51EF5C4DA0B5364EA0D970078 /* NSString+ZPJSONObjectKey.m in Sources */,
+				A56DA09422624A4690873C54874A185E /* NSString+ZPJsonValidURL.m in Sources */,
+				519F3A9CAF4BFBAD361D3997F6CF8E3D /* ZPJSONConfig.m in Sources */,
+				E441E3348AF72B285DB333BCFA4EC18A /* ZPJSONDecorator.m in Sources */,
+				E70ABED92F0B7F36BDE01AE3371E9658 /* ZPJSONDocumentReader.m in Sources */,
+				DEC7405AEC6079DE16C7CF73E9F85731 /* ZPJSONError.m in Sources */,
+				5A6A06FF807BD303C1B8847B49CEE0F0 /* ZPJSONException.m in Sources */,
+				C07EFC0ED1981FBB2B069668432EB1FC /* ZPJSONHighlightColor.m in Sources */,
+				4CA2798536B1F7A133D23AD5B6393571 /* ZPJSONHighlightStyle.m in Sources */,
+				55F51E4399527A9D64A9D8190ADE580E /* ZPJSONParser.m in Sources */,
+				C75A0158B1B147209F9DD3790F2779CE /* ZPJsonPreview.m in Sources */,
+				515981CE47F00FDD8FA7CE057AE2570C /* ZPJsonPreview-dummy.m in Sources */,
+				1FE6F5B0D005A6A643726D2EB9B2735A /* ZPJSONSlice.m in Sources */,
+				9833B62988A2B926F32404B7AC7582C8 /* ZPJSONTextView.m in Sources */,
+				C7277844DE1504E21BFCBCAC3DD97F73 /* ZPJSONValue.m in Sources */,
+				417620E824232D2D4D8A982F04D69B3E /* ZPLineNumberCell.m in Sources */,
+				46F41861FF9806674E0E9ABD257E6109 /* ZPLineNumberTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556ADF78A119D642126403928E874914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6E1CCDFE55E86F18025D5A79F91864 /* Pods-ZPJsonPreview_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E6F8611ACB980E594CB185089E72618 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZPJsonPreview_Example";
-			target = 5122C4ABC61DEC123D26BC67F1A21544 /* Pods-ZPJsonPreview_Example */;
-			targetProxy = A2241FE9BE5938B87CCA5A1ABB2E17A1 /* PBXContainerItemProxy */;
-		};
-		B82284FDD63C7C65116EDD5FA5D205E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 60F28B5D5509A3C28350CB4DC2919E0E /* PBXContainerItemProxy */;
-		};
-		BC164190864313167A5964C7306DE1CF /* PBXTargetDependency */ = {
+		A500B5CC55679987D27A0BB934941202 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZPJsonPreview;
 			target = 15F3BF726995543FE9A14665EB26AE05 /* ZPJsonPreview */;
-			targetProxy = D80A55DB360A2D9492E16C4233CECF8B /* PBXContainerItemProxy */;
+			targetProxy = C04AFAFBAE036241CD10CBAB2FE2D9D3 /* PBXContainerItemProxy */;
+		};
+		B7FFD59A56CBC1202AD5AF6DC6207F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 30A480F524DDC140CB64832C7FED06A5 /* PBXContainerItemProxy */;
+		};
+		D6CC07C2BED58E0A64DD97A8CF6BD61D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZPJsonPreview-ZPJsonPreview";
+			target = C5AE069303BA26E3E0F8142CFE5BFEF9 /* ZPJsonPreview-ZPJsonPreview */;
+			targetProxy = 152D2C1605864F870F97D0FC181EDE43 /* PBXContainerItemProxy */;
+		};
+		DB46F34F581B63824895F07008E9EFFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZPJsonPreview_Example";
+			target = 5122C4ABC61DEC123D26BC67F1A21544 /* Pods-ZPJsonPreview_Example */;
+			targetProxy = 40C6C05E65BD3D4FFC9134FAB9BAD69B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
+		20D133BA76C3414910D1B278E8D12FB4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		589897C2242E868353F5CEC8D7906FC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C79C368B3A16B63F33D06056F5CA565B /* ZPJsonPreview.release.xcconfig */;
+			baseConfigurationReference = 67179ED4444D9187B1E225F9F0F24CE9 /* ZPJsonPreview.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/ZPJsonPreview/ZPJsonPreview-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZPJsonPreview/ZPJsonPreview-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZPJsonPreview/ZPJsonPreview.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = ZPJsonPreview;
 				PRODUCT_NAME = ZPJsonPreview;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		5D94199834A6FAE90206201F5E949057 /* Release */ = {
+		380137D37DF4566B7D5DF0B94CB81833 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A75A29BB146C924A0170955F0EAAD3AA /* Pods-ZPJsonPreview_Tests.release.xcconfig */;
+			baseConfigurationReference = 67179ED4444D9187B1E225F9F0F24CE9 /* ZPJsonPreview.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZPJsonPreview";
+				DEVELOPMENT_TEAM = RPRE3P3ZM5;
+				IBSC_MODULE = ZPJsonPreview;
+				INFOPLIST_FILE = "Target Support Files/ZPJsonPreview/ResourceBundle-ZPJsonPreview-ZPJsonPreview-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ZPJsonPreview;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		47022C91E33CEF67271A810B104CCBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04A0DCE90D57A6849A07490E485FA94 /* Pods-ZPJsonPreview_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPJsonPreview_Tests/Pods-ZPJsonPreview_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		492877AB32860F31CECBE6A3A2E3BAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7ACE86E11820EF38C71EEBEC340E31 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F4820AE9E9F322F0AB6D07F3F935CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A5842B8CB3637A3F120AC675EB1889 /* Pods-ZPJsonPreview_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ZPJsonPreview_Tests/Pods-ZPJsonPreview_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6BF95DD900DC336562834B8D1552AC52 /* Debug */ = {
+		58343A0624EB2603946071CB7BBFE47B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A370B44E747EB7C56CF08C5B07577224 /* Pods-ZPJsonPreview_Example.debug.xcconfig */;
+			baseConfigurationReference = 76A45461F174AD5383E5F571293C0A49 /* Pods-ZPJsonPreview_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71A7CDEDB0E038C306FE5582ADA5BE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9CD662427AAA2F5C0851CCF513711B6 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -978,138 +1010,55 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		80F34786615D9D0DB8FF9925A910998D /* Debug */ = {
+		AC581FC967A8975EE9C4C582F9C279AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFBBCE6D1D07355CB28C2357E196A266 /* Pods-ZPJsonPreview_Tests.debug.xcconfig */;
+			baseConfigurationReference = B2992692444A187DA2CD9FA4F873204E /* ZPJsonPreview.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPJsonPreview/ZPJsonPreview-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZPJsonPreview;
+				PRODUCT_NAME = ZPJsonPreview;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB17D90435866B93024B81C318F5396F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3883379384AEF6D1B35621FD674F8736 /* Pods-ZPJsonPreview_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPJsonPreview_Tests/Pods-ZPJsonPreview_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ZPJsonPreview_Tests/Pods-ZPJsonPreview_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		94A6034960EE1EEE1B8AC4A065E55C45 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 889DE5A1FCBC145E342432A18A027369 /* Pods-ZPJsonPreview_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BA108329FE764BA757E2401D1E488E33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E7F00CE97010461D7C3F53DE13EB5C5 /* ZPJsonPreview.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZPJsonPreview/ZPJsonPreview-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZPJsonPreview/ZPJsonPreview-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZPJsonPreview/ZPJsonPreview.modulemap";
-				PRODUCT_MODULE_NAME = ZPJsonPreview;
-				PRODUCT_NAME = ZPJsonPreview;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1179,23 +1128,31 @@
 			};
 			name = Debug;
 		};
+		EF8CD7B83715556CFE9D61965AA6880E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2992692444A187DA2CD9FA4F873204E /* ZPJsonPreview.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZPJsonPreview";
+				DEVELOPMENT_TEAM = RPRE3P3ZM5;
+				IBSC_MODULE = ZPJsonPreview;
+				INFOPLIST_FILE = "Target Support Files/ZPJsonPreview/ResourceBundle-ZPJsonPreview-ZPJsonPreview-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ZPJsonPreview;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11BE80D723CDBBB4D9F4D5FF16D0C112 /* Build configuration list for PBXNativeTarget "ZPJsonPreview" */ = {
+		3EBBF279E84CCFC0BA42E3B25BCE301D /* Build configuration list for PBXNativeTarget "Pods-ZPJsonPreview_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA108329FE764BA757E2401D1E488E33 /* Debug */,
-				589897C2242E868353F5CEC8D7906FC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
-				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+				58343A0624EB2603946071CB7BBFE47B /* Debug */,
+				47022C91E33CEF67271A810B104CCBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1209,20 +1166,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A8DE3320D045F76B7BD6D4FE926271A /* Build configuration list for PBXNativeTarget "Pods-ZPJsonPreview_Tests" */ = {
+		6E974BEF5EA6FA91BC6A7B328426EA73 /* Build configuration list for PBXNativeTarget "ZPJsonPreview-ZPJsonPreview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80F34786615D9D0DB8FF9925A910998D /* Debug */,
-				5D94199834A6FAE90206201F5E949057 /* Release */,
+				EF8CD7B83715556CFE9D61965AA6880E /* Debug */,
+				380137D37DF4566B7D5DF0B94CB81833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5BF73425F867CE88A6A0959784D9EE3 /* Build configuration list for PBXNativeTarget "Pods-ZPJsonPreview_Example" */ = {
+		8AA8F55687C797672F992D77524A8F08 /* Build configuration list for PBXNativeTarget "ZPJsonPreview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BF95DD900DC336562834B8D1552AC52 /* Debug */,
-				94A6034960EE1EEE1B8AC4A065E55C45 /* Release */,
+				AC581FC967A8975EE9C4C582F9C279AB /* Debug */,
+				20D133BA76C3414910D1B278E8D12FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF63EF3B50935083E54F266A5274D60 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A7CDEDB0E038C306FE5582ADA5BE53 /* Debug */,
+				492877AB32860F31CECBE6A3A2E3BAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C371C1F9351423DF46811E8BA7FE2431 /* Build configuration list for PBXNativeTarget "Pods-ZPJsonPreview_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB17D90435866B93024B81C318F5396F /* Debug */,
+				53F4820AE9E9F322F0AB6D07F3F935CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
