@@ -31,7 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id <ZPJsonPreviewDelegate>delegate;
 
-- (void)preview:(id)json style:(ZPJSONHighlightStyle *)style;
+- (void)previewJson:(id)json style:(ZPJSONHighlightStyle *)style;
+
+- (void)previewJson:(id)json;
 
 @end
 

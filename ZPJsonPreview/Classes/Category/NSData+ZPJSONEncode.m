@@ -11,6 +11,8 @@
 
 + (NSData *)zpjson_dataWithJson:(id)json
 {
+    if (!json) { return nil; }
+    
     NSData *data = nil;
     if ([json isKindOfClass:NSString.class]) {
         data = [(NSString *)json dataUsingEncoding:NSUTF8StringEncoding];

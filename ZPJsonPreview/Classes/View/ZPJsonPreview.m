@@ -49,14 +49,25 @@ ZPJSONTextViewDelegate
 
 #pragma mark - public
 
-- (void)preview:(id)json style:(ZPJSONHighlightStyle *)style
+- (void)previewJson:(id)json style:(ZPJSONHighlightStyle *)style
 {
+    if (!style || ![style isKindOfClass:ZPJSONHighlightStyle.class]) {
+        style = [ZPJSONHighlightStyle new];
+    }
+    
     _highlightStyle = style;
     
     self.decorator = [ZPJSONDecorator decoratorWithJson:json judgmentValid:YES style:style];
     
     [self refreshTextView];
 }
+
+- (void)previewJson:(id)json
+{
+    [self previewJson:json style:nil];
+}
+
+#pragma mark - UI
 
 - (void)refreshTextView
 {

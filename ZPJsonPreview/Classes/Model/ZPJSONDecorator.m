@@ -60,25 +60,33 @@ NSMutableAttributedString* AttributedString(NSString *string, ZPJsonStyleInfos a
 {
     NSData *data = [NSData zpjson_dataWithJson:json];
     
+    if (!data || ![data isKindOfClass:NSData.class]) {
+        return [self decoratorWithError:nil];
+    }
+    
     if (judgmentValid) {
         NSError *error = nil;
         id jsonObject = [NSJSONSerialization JSONObjectWithData:data options:(NSJSONReadingMutableContainers) error:&error];
         if (error || !jsonObject) {
-            
-            if (!error) {
-                error = [NSError errorWithDomain:@"com.json.decorator" code:-1 userInfo:@{
-                    NSLocalizedDescriptionKey : @"解析的json文件错误"
-                }];
-            }
-            
-            ZPJSONDecorator *decorator = [[ZPJSONDecorator alloc] initWithStyle:style];
-            decorator.error = [ZPJSONError jsonError:error];
-            return decorator;
+            return [self decoratorWithError:error];
         }
     }
     
     ZPJSONDecorator *decorator = [[ZPJSONDecorator alloc] initWithStyle:style];
     decorator.slices = [decorator createSlicesFromData:data];
+    return decorator;
+}
+
++ (ZPJSONDecorator *)decoratorWithError:(NSError *)error
+{
+    if (!error || ![error isKindOfClass:NSError.class]) {
+        error = [NSError errorWithDomain:@"com.json.decorator" code:-1 userInfo:@{
+            NSLocalizedDescriptionKey : @"解析的json文件错误"
+        }];
+    }
+    
+    ZPJSONDecorator *decorator = [[ZPJSONDecorator alloc] initWithStyle:[ZPJSONHighlightStyle new]];
+    decorator.error = [ZPJSONError jsonError:error];
     return decorator;
 }
 
