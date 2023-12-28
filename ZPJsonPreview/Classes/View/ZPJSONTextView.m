@@ -56,6 +56,9 @@
     
     NSUInteger startIndex = 0;
     // Prevent the click logic from triggering when the line break is clicked.
+    if (startIndex + characterIndex < 0 || startIndex + characterIndex > self.text.length - 1) {
+        return;
+    }
     NSString *indexString = [self.text substringWithRange:NSMakeRange(startIndex + characterIndex, 1)];
     if ([indexString isEqualToString:@"\n"]) {
         return;
