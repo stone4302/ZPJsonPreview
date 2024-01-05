@@ -10,9 +10,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, ZPJSONValueState) {
-    valueState_wrong,
-    valueState_right_true,
-    valueState_right_false
+    valueState_wrong, // 异常
+    valueState_right_isContainer, // 正确，value是容器
+    valueState_right_isNotContainer // 正确，value不是容器
 };
 
 typedef NS_ENUM(NSInteger, ZPJSONValueClass) {
@@ -53,7 +53,9 @@ typedef NS_ENUM(NSInteger, ZPJSONValueClass) {
 
 + (instancetype)unknownJsonValue:(NSString *)unknown;
 
-- (ZPJSONValueState)isRight;
+- (ZPJSONValueState)valueState;
+
+- (BOOL)isRight;
 
 - (void)appendWrong:(NSString *)wrongString;
 

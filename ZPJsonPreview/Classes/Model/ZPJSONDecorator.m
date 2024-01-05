@@ -244,7 +244,7 @@ NSMutableAttributedString* AttributedString(NSString *string, ZPJsonStyleInfos a
                 };
                 
                 // Different treatment according to different situations
-                if ([value isRight] == valueState_wrong) {
+                if (![value isRight]) {
                     ZPJSONSlices slices = [self processJSONValueRecursively:value currentSlicesCount:currentSlicesCount + resultArray.count isNeedIndent:YES isNeedComma:NO];
                     if (objectKey.zp_json_isWrong) {
                         [resultArray addObjectsFromArray:slices];
@@ -260,13 +260,13 @@ NSMutableAttributedString* AttributedString(NSString *string, ZPJsonStyleInfos a
                         _append(expand, nil);
                     }
                 }
-                else if ([value isRight] == valueState_right_true || [value isRight] == valueState_right_false) {
+                else if ([value isRight]) {
                     NSString *string = Init2String([self writeIndent], Init3String(@"\"", objectKey, @"\""));
                     
                     BOOL nextIsRight = NO;
                     if (i < sortKeys.count - 1) {
                         ZPJSONValue *nextValue = [jsonValue.objectValue objectForKey:[sortKeys objectAtIndex:i + 1]];
-                        if ([nextValue isRight] == valueState_right_true || [nextValue isRight] == valueState_right_false) {
+                        if ([nextValue isRight]) {
                             nextIsRight = YES;
                         }
                     }
@@ -275,7 +275,7 @@ NSMutableAttributedString* AttributedString(NSString *string, ZPJsonStyleInfos a
                     
                     NSMutableAttributedString *expand = _createKeyAttribute(string, true);
                     
-                    BOOL isContainer = [value isRight] == valueState_right_true;
+                    BOOL isContainer = [value valueState] == valueState_right_isContainer;
                     if (isContainer) {
                         NSMutableAttributedString *fold = _createKeyAttribute(string, true);
                         // Get the content of the subvalue

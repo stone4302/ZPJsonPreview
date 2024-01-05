@@ -141,23 +141,31 @@
 
 #pragma mark - public getter
 
-- (ZPJSONValueState)isRight
+- (BOOL)isRight
+{
+    ZPJSONValueState valueState = [self valueState];
+    BOOL isRight = valueState == valueState_right_isContainer ||
+                   valueState == valueState_right_isNotContainer;
+    return isRight;
+}
+
+- (ZPJSONValueState)valueState
 {
     switch (self.valueClass) {
         case zp_unknown: return valueState_wrong;
-        case zp_string: return self.wrong == nil ? valueState_right_false : valueState_wrong;
-        case zp_number: return self.wrong == nil ? valueState_right_false : valueState_wrong;
-        case zp_bool: return self.wrong == nil ? valueState_right_false : valueState_wrong;
-        case zp_null: return self.wrong == nil ? valueState_right_false : valueState_wrong;
+        case zp_string: return self.wrong == nil ? valueState_right_isNotContainer : valueState_wrong;
+        case zp_number: return self.wrong == nil ? valueState_right_isNotContainer : valueState_wrong;
+        case zp_bool: return self.wrong == nil ? valueState_right_isNotContainer : valueState_wrong;
+        case zp_null: return self.wrong == nil ? valueState_right_isNotContainer : valueState_wrong;
         case zp_array:
         {
             ZPJSONValue *last = [self.arrayValue lastObject];
             if (!last) {
-                return valueState_right_true;
+                return valueState_right_isContainer;
             }
-            if (last.isRight == valueState_right_true ||
-                last.isRight == valueState_right_false) {
-                return valueState_right_true;
+            if (last.valueState == valueState_right_isContainer ||
+                last.valueState == valueState_right_isNotContainer) {
+                return valueState_right_isContainer;
             } else {
                 return valueState_wrong;
             }
@@ -165,12 +173,12 @@
         case zp_object:
         {
             for (ZPJSONValue *value in self.objectValue.allValues) {
-                if (value.isRight != valueState_wrong) {
+                if (value.valueState != valueState_wrong) {
                     continue;
                 }
                 return valueState_wrong;
             }
-            return valueState_right_true;
+            return valueState_right_isContainer;
         }
             
         default: return valueState_wrong;
