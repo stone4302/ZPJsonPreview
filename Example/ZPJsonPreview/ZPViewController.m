@@ -29,7 +29,7 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:@"zp_json_test" ofType:@"json"];
     NSData *pathData = [NSData dataWithContentsOfFile:path];
     
-    [self.jsonPreview preview:pathData style:[ZPJSONHighlightStyle new]];
+    [self.jsonPreview previewJson:pathData style:[ZPJSONHighlightStyle new]];
 }
 
 - (BOOL)jsonPreview:(ZPJsonPreview *)jsonPreview didClickURL:(NSURL *)url on:(UITextView *)textView

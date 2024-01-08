@@ -331,7 +331,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZPJsonPreview_Example/Pods-ZPJsonPreview_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ZPJsonPreview/ZPJsonPreview.bundle",
+				"${PODS_ROOT}/../../ZPJsonPreview/Assets/ZPJsonPreview.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
