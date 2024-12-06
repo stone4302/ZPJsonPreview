@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'git@igit.58corp.com:HRG-Client/iOS/ClientLib/ZPJsonPreview.git'
+  s.homepage         = 'https://github.com/stone4302/ZPJsonPreview.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pengbingxiang' => 'pengbingxiang@58.com' }
-  s.source           = { :git => 'git@igit.58corp.com:HRG-Client/iOS/ClientLib/ZPJsonPreview.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/stone4302/ZPJsonPreview.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
